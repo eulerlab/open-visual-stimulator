@@ -1,23 +1,19 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# ---------------------------------------------------------------------
-# Created on Tue Mar 15 23:26:30 2016
-# @author: Thomas
-#
+"""
+Helper functions (spectral data)
+MIT License, copyright (c) 2018 Thomas Euler
+"""
 # ---------------------------------------------------------------------
 __author__ = "code@eulerlab.de"
 
-
 # ---------------------------------------------------------------------
-# Various functions
-# ---------------------------------------------------------------------
-def wavelength_to_rgb(wavelength, gamma=0.8):
-    '''This converts a given wavelength of light to an 
-    approximate RGB color value. The wavelength must be given
-    in nanometers in the range from 380 nm through 750 nm
-    (789 THz through 400 THz).
-
-    Based on code by Dan Bruton
-    http://www.physics.sfasu.edu/astro/color/spectra.html
+def wavelength_to_rgb(wavelength, gamma=0.8, darker=1.0):
+    ''' This converts a given wavelength of light to an approximate 
+        RGB color value. The wavelength must be given in nanometers 
+        in the range from 380 nm through 750 nm. 
+        Based on code by Dan Bruton
+        http://www.physics.sfasu.edu/astro/color/spectra.html
     '''
     wavelength = float(wavelength)
     if wavelength >= 350 and wavelength <= 440:
@@ -50,6 +46,6 @@ def wavelength_to_rgb(wavelength, gamma=0.8):
         R = 0.0
         G = 0.0
         B = 0.0
-    return (R, G, B)
+    return (R *darker, G *darker, B *darker)
     
 # ---------------------------------------------------------------------
