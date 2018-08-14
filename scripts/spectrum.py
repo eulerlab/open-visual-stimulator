@@ -49,3 +49,8 @@ def wavelength_to_rgb(wavelength, gamma=0.8, darker=1.0):
     return (R *darker, G *darker, B *darker)
     
 # ---------------------------------------------------------------------
+def getPeak_in_nm(wavelengths, curve):
+    from numpy import argmax
+    return wavelengths[argmax(curve)]
+
+# ---------------------------------------------------------------------
