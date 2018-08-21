@@ -54,3 +54,91 @@ def getPeak_in_nm(wavelengths, curve):
     return wavelengths[argmax(curve)]
 
 # ---------------------------------------------------------------------
+def saveSpectData(fName, wavLen, bkgSpect, intSpect, intens):
+    # Saves the spectral data for a light source via pandas into a .csv 
+    # file. The arrays `wavlen`, `bkgspect` and all datasets in `spect` 
+    # must have the same length.
+    #
+    #   fName,     path and name of the target file w/extention
+    #   wavLen,    wavelength array 
+    #   bkgSpect,  (mean) background spectrum
+    #   intSpect,  as many (mean) spectra as `len(intens)`
+    #   intens,    list with intensities for `spect`
+    # 
+    import numpy as np
+    import pandas as pd
+
+    # Combine all spectra into one array
+    #
+    length      = len(wavLen)
+    _wLen       = np.copy(wavLen)
+    _wLen.shape = (1, length)
+    _bkg        = np.copy(bkgSpect)
+    _bkg.shape  = (1, length)
+    _int        = np.copy(intSpect)
+    data        = np.concatenate((_wLen, _bkg, _int), axis=0)
+    
+    # Generate column labels
+    #
+    colLabels   = ["wavelength", "raw_bkg"]
+    for i in intens:
+        colLabels.append("raw_avg{0}".format(i))
+        
+    # Generate pandas dataframe and write to file
+    #
+    df = pd.DataFrame(np.transpose(data), columns=colLabels)
+    df.to_csv(fName)
+
+# ---------------------------------------------------------------------
+def saveAllSpectData(fNameMask, fDataPath, wavLen, LEDs, intens):
+    # Saves all measured spectral data in `LEDs`via pandas into 
+    # separate .csv files.  
+    #
+    #   fNameMask, mask of the target file name w/o extention
+    #   fDataPath, path to data folder
+    #   wavLen,    wavelength array 
+    #   LEDs,      LED dictionary 
+    #   intens,    list with intensities for `spect`
+    # 
+    import os
+    
+    for iLED, LED in enumerate(LEDs):
+        fName = "{0}{1}_{2}.csv".format(fDataPath, fNameMask, LED["name"])
+        if not os.path.isfile(fName):
+            saveSpectData(fName, wavLen, LED["spect_raw_bkg"], 
+                          LED["spect_raw_avg"], intens)
+            print("`{0}` saved.".format(fName))
+        else:
+            print("ERROR: File `{0}` already exists".format(fName))
+
+# ---------------------------------------------------------------------
+def loadSpectData(fName):
+    # Loads spectral data for a light source, returns `wavLen`, 
+    # `bkgSpect`, `intSpect`, and `intens`. See `saveSpectData()` for 
+    # details.
+    #
+    import numpy as np
+    import pandas as pd
+    import os
+
+    wavLen   = []
+    bkgSpect = []
+    intSpect = []
+    intens   = []
+    
+    if not os.path.isfile(fName):
+        print("ERROR: File `{0}` not found".format(fName))
+
+    else:
+        df       = pd.read_csv(fName)
+        wavLen   = np.array(df["wavelength"])
+        bkgSpect = np.array(df["raw_bkg"])
+        for iCol, col in enumerate(df.columns):
+            if iCol > 2:
+                intSpect.append(np.array(df[col]))
+                intens.append(int(df.columns[iCol].split("avg")[1]))
+        print("`{0}` loaded.".format(fName))
+
+    return wavLen, bkgSpect, intSpect, intens
+
+# ---------------------------------------------------------------------

@@ -16,7 +16,8 @@ class DevType(Enum):
     OO_USB2000 = 1
     # ...
     
-spectrometer = None
+__spectrometer = None
+__trigger_mode = 0
 
 # ---------------------------------------------------------------------
 def load_calibration_curves(devType, fileName, serialNumber):
@@ -44,19 +45,22 @@ def load_calibration_curves(devType, fileName, serialNumber):
         return (np.array([]), np.array([]))
 
 # ---------------------------------------------------------------------
-def connect(devType, serialNum, int_time_s):
-    global spectrometer
+def connect(devType, serialNum, int_time_s, trigger_mode=0):
+    global __spectrometer, __trigger_mode
     
     if devType == devType.OO_USB2000:
         import seabreeze.spectrometers as sb
         try:
             # Connect to device and set it up
-            # (configure device not to wait for triggers)
+            # trigger_mode : 0=no wait, 1=wait for trigger on pin 7
             #
-            spectrometer = sb.Spectrometer.from_serial_number(serialNum)
-            spectrometer.integration_time_micros(int_time_s *1E6)
-            spectrometer.trigger_mode(0)  
+            __spectrometer = sb.Spectrometer.from_serial_number(serialNum)
+            __spectrometer.integration_time_micros(int_time_s *1E6)
+            __trigger_mode = trigger_mode
+            __spectrometer.trigger_mode(trigger_mode)  
             print("SUCCESS")
+            print("{0:.6f} s integration time, trigger is{1}used"
+                  .format(int_time_s, " " if trigger_mode else " NOT "))
     
         except sb.SeaBreezeError as Err:
             print("ERROR:", Err)
@@ -67,16 +71,22 @@ def connect(devType, serialNum, int_time_s):
         print("ERROR: Device not recognized")
 
 # ---------------------------------------------------------------------
-def grabSpectrum(devType):
-    global spectrometer
+def grabSpectrum(devType, trigger_mode_override=-1):
+    global __spectrometer, __trigger_mode
     
-    if spectrometer == None:
+    if __spectrometer == None:
         print("ERROR: No spectrometer connected")
         return ([], [])
     
     if devType == devType.OO_USB2000:
         try:
-            wavelengths, intensities = spectrometer.spectrum()
+            override = ((trigger_mode_override in [0,1]) and 
+                        (trigger_mode_override != __trigger_mode))
+            if override:
+                __spectrometer.trigger_mode(trigger_mode_override)
+            wavelengths, intensities = __spectrometer.spectrum()
+            if override:
+                __spectrometer.trigger_mode(__trigger_mode)
             return (wavelengths, intensities)
     
         except sb.SeaBreezeError as Err:
@@ -88,16 +98,16 @@ def grabSpectrum(devType):
 
 # ---------------------------------------------------------------------
 def disconnect(devType):
-    global spectrometer
+    global __spectrometer
     
-    if spectrometer == None:
+    if __spectrometer == None:
         print("ERROR: No spectrometer connected")
         return
     
     if devType == devType.OO_USB2000:
         import seabreeze.spectrometers as sb
-        spectrometer.close()
-        spectrometer = None
+        __spectrometer.close()
+        __spectrometer = None
 
     else:
         print("ERROR: Device not recognized")
