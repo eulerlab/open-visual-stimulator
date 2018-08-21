@@ -37,12 +37,16 @@ def EMG(x, h, x0, sigma, tau):
 def removeShotNoise(data, lim):
     import numpy as np
     
-    avg  = np.mean(data)
-    temp = [avg] *len(data)
+    temp     = [0.0] *len(data)
+    temp[0]  = data[0]
+    temp[-1] = data[-1]
     for iv, v in enumerate(data):
         if (iv > 0) and (iv < len(data)-1):
             if not((abs(data[iv] -data[iv-1]) > lim) and (abs(data[iv] -data[iv+1]) > lim)):
                 temp[iv] = data[iv]
+            else:
+                temp[iv] = (data[iv-1] +data[iv+1])/2
+                
     return np.array(temp)            
 
 # ---------------------------------------------------------------------
