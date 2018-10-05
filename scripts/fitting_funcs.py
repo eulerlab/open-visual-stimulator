@@ -47,6 +47,18 @@ def removeShotNoise(data, lim):
             else:
                 temp[iv] = (data[iv-1] +data[iv+1])/2
                 
-    return np.array(temp)            
+    return np.array(temp)       
+
+
+def Sigmoid(x, a, b, c, d):
+    # General sigmoid function
+    # a  := amplitude
+    # b  := y offset
+    # c  := x offset
+    # d  := slope
+    #
+    import numpy as np
+    
+    return ((a-b) /(1 + np.exp(x-(c/2))**d)) + b
 
 # ---------------------------------------------------------------------
