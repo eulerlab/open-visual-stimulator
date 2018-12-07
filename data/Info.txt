@@ -1,0 +1,11 @@
+LEDs_Setup2_20180821_6_green: step size 17, normal max intesnity (used in experiments)
+LEDs_Setup2_20180821_8_green: step size 17, high max intesnity (max gain)
+
+LEDs_Setup2_20180821_9_green: step size 2, high max intesnity (max gain)
+LEDs_Setup2_20180821_9_UV: step size 2, high max intesnity (max gain)
+
+LEDs_Setup2_20180821_10_UV: step size 17, high max intesnity (max gain)
+
+LEDs_Setup2_20180821_12_green: step size 1, high max intesnity (max gain)
+
+LEDs_Setup2_20180823_2_green/UV: step size 2, high max intensity (max gain), with gamma table estimated on data from LEDs_Setup2_20180821_9
