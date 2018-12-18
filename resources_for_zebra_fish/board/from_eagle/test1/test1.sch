@@ -421,7 +421,7 @@ $EndComp
 Wire Wire Line
 	10750 4800 10800 4800
 Wire Wire Line
-	10000 4800 10800 4800
+	10000 4800 10750 4800
 Wire Wire Line
 	2900 4950 3850 4950
 $Comp
@@ -441,4 +441,7 @@ Wire Wire Line
 	3050 5050 2900 5050
 Wire Wire Line
 	3850 4400 4200 4400
+Connection ~ 10750 4800
+Wire Wire Line
+	10750 4800 10800 4800
 $EndSCHEMATC
