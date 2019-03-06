@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Connector_Coaxial_extra)(type KiCad)(uri ${KIPRJMOD}/Connector_Coaxial.pretty)(options "")(descr ""))
-)

@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name inverter)(type Legacy)(uri /home/andre/Documents/repositories/amchagas/open-visual-stimulator/resources_for_zebra_fish/board/lm2596_driver/led_driver/inverter.lib)(options "")(descr ""))
-)
