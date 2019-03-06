@@ -1,0 +1,550 @@
+EESchema Schematic File Version 4
+LIBS:Lcr_addon-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Switching:LM2596T-5 U4
+U 1 1 5C419453
+P 3800 2150
+F 0 "U4" H 3800 2517 50  0000 C CNN
+F 1 "LM2596T-5" H 3800 2426 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical" H 3850 1900 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 3800 2150 50  0001 C CNN
+	1    3800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C1
+U 1 1 5C419545
+P 3100 1900
+F 0 "C1" H 3010 1854 50  0000 R CNN
+F 1 "680uF" H 3010 1945 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3100 1900 50  0001 C CNN
+F 3 "~" H 3100 1900 50  0001 C CNN
+	1    3100 1900
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 5C419597
+P 5300 2550
+F 0 "C2" V 5072 2550 50  0000 C CNN
+F 1 "220uF" V 5163 2550 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5300 2550 50  0001 C CNN
+F 3 "~" H 5300 2550 50  0001 C CNN
+	1    5300 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:INDUCTOR L1
+U 1 1 5C419675
+P 5200 2250
+F 0 "L1" H 5200 2465 50  0000 C CNN
+F 1 "33uH" H 5200 2374 50  0000 C CNN
+F 2 "Inductor_THT:L_Radial_D10.0mm_P5.00mm_Neosid_SD12_style3" H 5200 2250 50  0001 C CNN
+F 3 "~" H 5200 2250 50  0001 C CNN
+	1    5200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D1
+U 1 1 5C4197E8
+P 3750 1700
+F 0 "D1" H 3750 1484 50  0000 C CNN
+F 1 "D_Schottky" H 3750 1575 50  0000 C CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 3750 1700 50  0001 C CNN
+F 3 "~" H 3750 1700 50  0001 C CNN
+	1    3750 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J2
+U 1 1 5C41A119
+P 2000 2350
+F 0 "J2" H 2050 2867 50  0000 C CNN
+F 1 "LCr_ conector" H 2050 2776 50  0000 C CNN
+F 2 "Connector_JST:JST_PUD_B14B-PUDSS_2x07_P2.00mm_Vertical" H 2000 2350 50  0001 C CNN
+F 3 "~" H 2000 2350 50  0001 C CNN
+	1    2000 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C41A1F1
+P 1350 2900
+F 0 "#PWR01" H 1350 2650 50  0001 C CNN
+F 1 "GND" H 1355 2727 50  0000 C CNN
+F 2 "" H 1350 2900 50  0001 C CNN
+F 3 "" H 1350 2900 50  0001 C CNN
+	1    1350 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2550 1350 2550
+Wire Wire Line
+	1700 2650 1350 2650
+Wire Wire Line
+	1350 2550 1350 2650
+Connection ~ 1350 2650
+Wire Wire Line
+	1350 2650 1350 2800
+Wire Wire Line
+	2200 2650 2200 2800
+Wire Wire Line
+	2200 2800 1350 2800
+Connection ~ 1350 2800
+Wire Wire Line
+	1350 2800 1350 2900
+NoConn ~ 2200 2550
+NoConn ~ 1700 2150
+NoConn ~ 1700 2050
+NoConn ~ 2200 2150
+Wire Wire Line
+	2200 2250 2450 2250
+Wire Wire Line
+	1700 2350 1300 2350
+Wire Wire Line
+	1300 2350 1300 1700
+Wire Wire Line
+	3100 2050 3100 2000
+Wire Wire Line
+	3100 2050 3300 2050
+$Comp
+L power:GND #PWR04
+U 1 1 5C41A849
+P 3100 1600
+F 0 "#PWR04" H 3100 1350 50  0001 C CNN
+F 1 "GND" H 3105 1427 50  0000 C CNN
+F 2 "" H 3100 1600 50  0001 C CNN
+F 3 "" H 3100 1600 50  0001 C CNN
+	1    3100 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 1600 3100 1700
+Wire Wire Line
+	3300 2250 3200 2250
+Wire Wire Line
+	3200 2250 3200 1700
+Wire Wire Line
+	3200 1700 3100 1700
+Connection ~ 3100 1700
+Wire Wire Line
+	3100 1700 3100 1800
+Wire Wire Line
+	3800 2450 3200 2450
+Wire Wire Line
+	3200 2450 3200 2250
+Connection ~ 3200 2250
+Wire Wire Line
+	3900 1700 4650 1700
+Wire Wire Line
+	4650 1700 4650 2250
+Wire Wire Line
+	4650 2250 4300 2250
+Wire Wire Line
+	3600 1700 3200 1700
+Connection ~ 3200 1700
+Wire Wire Line
+	4950 2250 4650 2250
+Connection ~ 4650 2250
+Wire Wire Line
+	4300 2050 5450 2050
+Wire Wire Line
+	5450 2050 5450 2250
+Wire Wire Line
+	5400 2550 5450 2550
+Wire Wire Line
+	5450 2550 5450 2250
+Connection ~ 5450 2250
+Wire Wire Line
+	5200 2550 3200 2550
+Wire Wire Line
+	3200 2550 3200 2450
+Connection ~ 3200 2450
+Wire Wire Line
+	5450 2250 5700 2250
+$Comp
+L 74xGxx:74AHC1G08 U1
+U 1 1 5C42064A
+P 3150 3300
+F 0 "U1" H 3125 3567 50  0000 C CNN
+F 1 "RED channel" H 3125 3476 50  0000 C CNN
+F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 3150 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3150 3300 50  0001 C CNN
+	1    3150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2250 2450 3250
+Wire Wire Line
+	2450 3250 2850 3250
+Wire Wire Line
+	2550 1700 2550 3350
+Wire Wire Line
+	2550 3350 2850 3350
+Wire Wire Line
+	1300 1700 2550 1700
+$Comp
+L power:VCC #PWR05
+U 1 1 5C421028
+P 5700 2250
+F 0 "#PWR05" H 5700 2100 50  0001 C CNN
+F 1 "VCC" H 5717 2423 50  0000 C CNN
+F 2 "" H 5700 2250 50  0001 C CNN
+F 3 "" H 5700 2250 50  0001 C CNN
+	1    5700 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 2250
+$Comp
+L 74xGxx:74AHC1G08 U2
+U 1 1 5C42104A
+P 3200 3900
+F 0 "U2" H 3175 4167 50  0000 C CNN
+F 1 "Green channel" H 3175 4076 50  0000 C CNN
+F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 3200 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3200 3900 50  0001 C CNN
+	1    3200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U3
+U 1 1 5C42107E
+P 3200 4350
+F 0 "U3" H 3175 4617 50  0000 C CNN
+F 1 "Blue channel" H 3175 4526 50  0000 C CNN
+F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 3200 4350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3200 4350 50  0001 C CNN
+	1    3200 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2250 1150 2250
+Wire Wire Line
+	1150 2250 1150 3850
+Wire Wire Line
+	1150 3850 2900 3850
+Wire Wire Line
+	2200 2450 2250 2450
+Wire Wire Line
+	2250 2450 2250 3950
+Wire Wire Line
+	2250 3950 2900 3950
+Wire Wire Line
+	2200 2350 2350 2350
+Wire Wire Line
+	2350 2350 2350 4300
+Wire Wire Line
+	2350 4300 2900 4300
+Wire Wire Line
+	2900 4400 1250 4400
+Wire Wire Line
+	1250 4400 1250 2450
+Wire Wire Line
+	1250 2450 1700 2450
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5C423468
+P 2450 1400
+F 0 "J3" V 2510 1540 50  0000 L CNN
+F 1 "power source" V 2601 1540 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2450 1400 50  0001 C CNN
+F 3 "~" H 2450 1400 50  0001 C CNN
+	1    2450 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 2050 2350 2050
+Wire Wire Line
+	2350 2050 2350 1600
+Wire Wire Line
+	2450 1600 2450 2050
+Wire Wire Line
+	2450 2050 3100 2050
+Connection ~ 3100 2050
+Wire Wire Line
+	2550 1600 2750 1600
+Wire Wire Line
+	2750 1600 2750 900 
+Wire Wire Line
+	2750 900  2600 900 
+$Comp
+L Connector:Barrel_Jack J1
+U 1 1 5C425B88
+P 1700 950
+F 0 "J1" H 1755 1275 50  0000 C CNN
+F 1 "12V_in" H 1755 1184 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1750 910 50  0001 C CNN
+F 3 "~" H 1750 910 50  0001 C CNN
+	1    1700 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 900  2600 850 
+Wire Wire Line
+	2600 850  2200 850 
+$Comp
+L power:GND #PWR03
+U 1 1 5C426B7A
+P 2200 1100
+F 0 "#PWR03" H 2200 850 50  0001 C CNN
+F 1 "GND" H 2205 927 50  0000 C CNN
+F 2 "" H 2200 1100 50  0001 C CNN
+F 3 "" H 2200 1100 50  0001 C CNN
+	1    2200 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1050 2200 1050
+Wire Wire Line
+	2200 1050 2200 1100
+$Comp
+L power:+12V #PWR02
+U 1 1 5C427C24
+P 2200 850
+F 0 "#PWR02" H 2200 700 50  0001 C CNN
+F 1 "+12V" H 2215 1023 50  0000 C CNN
+F 2 "" H 2200 850 50  0001 C CNN
+F 3 "" H 2200 850 50  0001 C CNN
+	1    2200 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 850 
+Wire Wire Line
+	2200 850  2000 850 
+$Comp
+L 74xGxx:74AHC1G08 U5
+U 1 1 5C427D38
+P 5550 3300
+F 0 "U5" H 5525 3567 50  0000 C CNN
+F 1 "RED+blank" H 5525 3476 50  0000 C CNN
+F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 5550 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5550 3300 50  0001 C CNN
+	1    5550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U6
+U 1 1 5C427DC2
+P 5550 3900
+F 0 "U6" H 5525 4167 50  0000 C CNN
+F 1 "Green+blank" H 5525 4076 50  0000 C CNN
+F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 5550 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5550 3900 50  0001 C CNN
+	1    5550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74AHC1G08 U7
+U 1 1 5C427E0D
+P 5600 4550
+F 0 "U7" H 5575 4817 50  0000 C CNN
+F 1 "Blue+blank" H 5575 4726 50  0000 C CNN
+F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 5600 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5600 4550 50  0001 C CNN
+	1    5600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L inverter:TC7S14F U8
+U 1 1 5C42A7AF
+P 7350 1900
+F 0 "U8" H 7350 2165 50  0000 C CNN
+F 1 "TC7S14F" H 7350 2074 50  0000 C CNN
+F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 7300 1900 50  0001 C CNN
+F 3 "" H 7300 1900 50  0001 C CNN
+	1    7350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 5C42AAC3
+P 6400 900
+F 0 "J4" V 6637 830 50  0000 C CNN
+F 1 "blank in" V 6546 830 50  0000 C CNN
+F 2 "extra_Connector:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 6400 900 50  0001 C CNN
+F 3 " ~" H 6400 900 50  0001 C CNN
+	1    6400 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5C42DE55
+P 6950 1200
+F 0 "#PWR06" H 6950 950 50  0001 C CNN
+F 1 "GND" V 6955 1072 50  0000 R CNN
+F 2 "" H 6950 1200 50  0001 C CNN
+F 3 "" H 6950 1200 50  0001 C CNN
+	1    6950 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 1200 6600 1200
+Wire Wire Line
+	6950 2350 6600 2350
+Wire Wire Line
+	6600 2350 6600 1200
+Connection ~ 6600 1200
+Wire Wire Line
+	6600 1200 6950 1200
+Wire Wire Line
+	6350 2200 6950 2200
+Wire Wire Line
+	6100 2250 6100 1400
+Wire Wire Line
+	7900 1400 7900 2050
+Wire Wire Line
+	7900 2050 7750 2050
+Wire Wire Line
+	5700 2250 6000 2250
+Wire Wire Line
+	7750 2350 7750 2800
+Wire Wire Line
+	5100 2800 5100 3350
+Wire Wire Line
+	5100 3350 5250 3350
+Wire Wire Line
+	5100 3350 5100 3950
+Wire Wire Line
+	5100 3950 5250 3950
+Connection ~ 5100 3350
+Wire Wire Line
+	5100 3950 5100 4600
+Wire Wire Line
+	5100 4600 5300 4600
+Connection ~ 5100 3950
+Wire Wire Line
+	3400 3300 3600 3300
+Wire Wire Line
+	3600 3300 3600 3250
+Wire Wire Line
+	3600 3250 5250 3250
+Wire Wire Line
+	3450 3900 3650 3900
+Wire Wire Line
+	3650 3900 3650 3850
+Wire Wire Line
+	3650 3850 5250 3850
+Wire Wire Line
+	3450 4350 3850 4350
+Wire Wire Line
+	3850 4350 3850 4500
+Wire Wire Line
+	3850 4500 5300 4500
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 5C43D047
+P 6650 3300
+F 0 "J7" H 6750 3276 50  0000 L CNN
+F 1 "Red control output" H 6750 3185 50  0000 L CNN
+F 2 "extra_Connector:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 6650 3300 50  0001 C CNN
+F 3 " ~" H 6650 3300 50  0001 C CNN
+	1    6650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J5
+U 1 1 5C43F149
+P 6600 3900
+F 0 "J5" H 6699 3876 50  0000 L CNN
+F 1 "Green control output" H 6699 3785 50  0000 L CNN
+F 2 "extra_Connector:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 6600 3900 50  0001 C CNN
+F 3 " ~" H 6600 3900 50  0001 C CNN
+	1    6600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J6
+U 1 1 5C43F1CB
+P 6600 4550
+F 0 "J6" H 6700 4526 50  0000 L CNN
+F 1 "Blue control output" H 6700 4435 50  0000 L CNN
+F 2 "extra_Connector:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 6600 4550 50  0001 C CNN
+F 3 " ~" H 6600 4550 50  0001 C CNN
+	1    6600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5C4457C7
+P 7650 4000
+F 0 "#PWR07" H 7650 3750 50  0001 C CNN
+F 1 "GND" V 7655 3872 50  0000 R CNN
+F 2 "" H 7650 4000 50  0001 C CNN
+F 3 "" H 7650 4000 50  0001 C CNN
+	1    7650 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 3500 7650 3500
+Wire Wire Line
+	7650 3500 7650 4000
+Wire Wire Line
+	6600 4100 7350 4100
+Wire Wire Line
+	7350 4100 7350 4000
+Wire Wire Line
+	7350 4000 7650 4000
+Connection ~ 7650 4000
+Wire Wire Line
+	6600 4750 7650 4750
+Wire Wire Line
+	7650 4750 7650 4000
+$Comp
+L Connector:Conn_01x03_Male J8
+U 1 1 5C45DF41
+P 6100 3000
+F 0 "J8" V 6253 3141 50  0000 L CNN
+F 1 "blank_jumper" V 6162 3141 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6100 3000 50  0001 C CNN
+F 3 "~" H 6100 3000 50  0001 C CNN
+	1    6100 3000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6100 1400 7900 1400
+Wire Wire Line
+	6350 2200 6350 1100
+Wire Wire Line
+	6350 1100 6400 1100
+Wire Wire Line
+	6550 1200 6550 1100
+Wire Wire Line
+	6550 1100 6600 1100
+Wire Wire Line
+	6600 1100 6600 900 
+Wire Wire Line
+	7750 2800 6200 2800
+Wire Wire Line
+	6100 2800 6100 2450
+Wire Wire Line
+	6100 2450 5700 2450
+Wire Wire Line
+	5700 2450 5700 2800
+Wire Wire Line
+	5700 2800 5100 2800
+Wire Wire Line
+	6000 2800 6000 2250
+Connection ~ 6000 2250
+Wire Wire Line
+	6000 2250 6100 2250
+Wire Wire Line
+	5800 3300 6450 3300
+Wire Wire Line
+	5800 3900 6400 3900
+Wire Wire Line
+	5850 4550 6400 4550
+$EndSCHEMATC

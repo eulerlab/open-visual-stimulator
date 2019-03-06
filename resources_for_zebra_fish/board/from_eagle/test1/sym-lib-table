@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name test1-eagle-import)(type Legacy)(uri ${KIPRJMOD}/test1-eagle-import.lib)(options "")(descr ""))
-)

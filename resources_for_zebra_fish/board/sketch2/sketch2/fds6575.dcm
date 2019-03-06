@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP FDS6575
-D 10A Id, 20V Vds, P-Channel MOSFET 13mOhm Ron, SO8
-F https://www.fairchildsemi.com/datasheets/FD/FDS6575.pdf
-$ENDCMP
-#
-#End Doc Library
