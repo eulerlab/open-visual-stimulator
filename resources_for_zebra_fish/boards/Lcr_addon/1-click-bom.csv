@@ -1,0 +1,15 @@
+References,Qty,Description,Manufacturer,MPN,Manufacturer_1,MPN_2,Manufacturer_3,MPN_4,Manufacturer_5,MPN_6,Manufacturer_7,MPN_8,Digikey,Mouser,RS,Newark,Farnell
+U4;,1,LM2596 5v,ITO-220,Texas Instruments,Texas Instruments,LM2596T-5.0/NOPB,,,,,,,LM2596T-5.0/NOPB-ND,926LM2596T5.0/NOPB,5333743,97K3256,1150103
+L1;,1,INDUCTOR 33µH Neosid MA-Bs75,Bourns,RLB0914-330KL,,,,,,,,,RLB0914-330KL-ND,652RLB0914330KL,8118853,61J7916,2309242
+D1;,1,Diode Schottky 5A DO-201AD,Vishay,1N5822-E3/73,Zetex,SB5100-T,,,,,,,1N5822-E3/73GICT-ND,6251N5822E3/73,751-4843,17T8202,1336553
+C2;,1,CAP ALUM 220UF 20% 25V RADIAL,Panasonic, EEU-FM1E221 ,Panasonic,ECA-1CM221B,Panasonic,ECE-A0GKS221,Panasonic,EEU-EB1A221S,,,P12383-ND,667ECA1CM221B,7472036,70K9673,9451099
+C1;,1,680µF Capacitor,Rubycon,16ZL680MEFC10X16,Panasonic,EEU-FC1A681,,,,,,,1189-3978-ND,667EEUFC1A681,7037258,31M6417,1144691
+R1;,1,Resistor 1k 250mW through-hole,Multicomp,MF12 1K,Yageo,MFR-25FBF52-1K,RS Pro,7077666,,,,,1.00KXBK-ND,603MFR25FBF521K,7077666,38K5400,9342400
+J2;,1,Lcr connector,JST,B14B-PHDSS (LF)(SN),,,,,,,,,,,918-2738,,
+J4;J5;J6;J7;,4,BNC connector,TE,1-1337542-0,,,,,,,,,,,512-1203,,
+J8;,1,jumper connector,SamTec,SSW-103-01-G-S ,,,,,,,,,,,765-5610,,
+U1;U2;U3:U5;U6:U7,6,AND gate,NXP,'74AHC1G08GW,125',,,,,,,,,,,510-087,,
+U8;,1,Signal inverter (NOT gate),Toshiba,TC4S584F(F),,,,,,,,,,,532-0113,,
+,,,,,,,,,,,,,,,,,
+Lcr 1,2,'Female plug 2X14 (1 to Lcr, one to Board)',JST,PHDR-14VS ,,,,,,,,,,,917-4692,,
+Cable,14,PICO-SPOX 150mm,Molex,79758-0008,,,,,,,,,,,126-0320,,
