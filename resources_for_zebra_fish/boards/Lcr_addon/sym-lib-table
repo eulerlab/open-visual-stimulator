@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name inverter)(type Legacy)(uri /home/andre/Documents/repositories/amchagas/open-visual-stimulator/resources_for_zebra_fish/board/Lcr_addon/inverter.lib)(options "")(descr ""))
+  (lib (name Lcr_addon-rescue)(type Legacy)(uri ${KIPRJMOD}/Lcr_addon-rescue.lib)(options "")(descr ""))
 )

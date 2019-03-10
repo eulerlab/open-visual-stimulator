@@ -255,76 +255,18 @@ Wire Wire Line
 	1250 4400 1250 2450
 Wire Wire Line
 	1250 2450 1700 2450
-$Comp
-L Connector:Conn_01x03_Male J3
-U 1 1 5C423468
-P 2450 1400
-F 0 "J3" V 2510 1540 50  0000 L CNN
-F 1 "power source" V 2601 1540 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2450 1400 50  0001 C CNN
-F 3 "~" H 2450 1400 50  0001 C CNN
-	1    2450 1400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2200 2050 2350 2050
-Wire Wire Line
-	2350 2050 2350 1600
-Wire Wire Line
-	2450 1600 2450 2050
-Wire Wire Line
-	2450 2050 3100 2050
 Connection ~ 3100 2050
-Wire Wire Line
-	2550 1600 2750 1600
-Wire Wire Line
-	2750 1600 2750 900 
-Wire Wire Line
-	2750 900  2600 900 
-$Comp
-L Connector:Barrel_Jack J1
-U 1 1 5C425B88
-P 1700 950
-F 0 "J1" H 1755 1275 50  0000 C CNN
-F 1 "12V_in" H 1755 1184 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1750 910 50  0001 C CNN
-F 3 "~" H 1750 910 50  0001 C CNN
-	1    1700 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 900  2600 850 
-Wire Wire Line
-	2600 850  2200 850 
-$Comp
-L power:GND #PWR03
-U 1 1 5C426B7A
-P 2200 1100
-F 0 "#PWR03" H 2200 850 50  0001 C CNN
-F 1 "GND" H 2205 927 50  0000 C CNN
-F 2 "" H 2200 1100 50  0001 C CNN
-F 3 "" H 2200 1100 50  0001 C CNN
-	1    2200 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 1050 2200 1050
-Wire Wire Line
-	2200 1050 2200 1100
 $Comp
 L power:+12V #PWR02
 U 1 1 5C427C24
-P 2200 850
-F 0 "#PWR02" H 2200 700 50  0001 C CNN
-F 1 "+12V" H 2215 1023 50  0000 C CNN
-F 2 "" H 2200 850 50  0001 C CNN
-F 3 "" H 2200 850 50  0001 C CNN
-	1    2200 850 
+P 2400 1900
+F 0 "#PWR02" H 2400 1750 50  0001 C CNN
+F 1 "+12V" H 2415 2073 50  0000 C CNN
+F 2 "" H 2400 1900 50  0001 C CNN
+F 3 "" H 2400 1900 50  0001 C CNN
+	1    2400 1900
 	1    0    0    -1  
 $EndComp
-Connection ~ 2200 850 
-Wire Wire Line
-	2200 850  2000 850 
 $Comp
 L 74xGxx:74AHC1G08 U5
 U 1 1 5C427D38
@@ -359,59 +301,29 @@ F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5600 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L inverter:TC7S14F U8
-U 1 1 5C42A7AF
-P 7350 1900
-F 0 "U8" H 7350 2165 50  0000 C CNN
-F 1 "TC7S14F" H 7350 2074 50  0000 C CNN
-F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 7300 1900 50  0001 C CNN
-F 3 "" H 7300 1900 50  0001 C CNN
-	1    7350 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_Coaxial J4
 U 1 1 5C42AAC3
-P 6400 900
-F 0 "J4" V 6637 830 50  0000 C CNN
-F 1 "blank in" V 6546 830 50  0000 C CNN
-F 2 "extra_Connector:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 6400 900 50  0001 C CNN
-F 3 " ~" H 6400 900 50  0001 C CNN
-	1    6400 900 
+P 7200 1300
+F 0 "J4" V 7437 1230 50  0000 C CNN
+F 1 "blank in" V 7346 1230 50  0000 C CNN
+F 2 "extra_Connector:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 7200 1300 50  0001 C CNN
+F 3 " ~" H 7200 1300 50  0001 C CNN
+	1    7200 1300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5C42DE55
-P 6950 1200
-F 0 "#PWR06" H 6950 950 50  0001 C CNN
-F 1 "GND" V 6955 1072 50  0000 R CNN
-F 2 "" H 6950 1200 50  0001 C CNN
-F 3 "" H 6950 1200 50  0001 C CNN
-	1    6950 1200
+P 7650 1300
+F 0 "#PWR06" H 7650 1050 50  0001 C CNN
+F 1 "GND" V 7655 1172 50  0000 R CNN
+F 2 "" H 7650 1300 50  0001 C CNN
+F 3 "" H 7650 1300 50  0001 C CNN
+	1    7650 1300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6550 1200 6600 1200
-Wire Wire Line
-	6950 2350 6600 2350
-Wire Wire Line
-	6600 2350 6600 1200
-Connection ~ 6600 1200
-Wire Wire Line
-	6600 1200 6950 1200
-Wire Wire Line
-	6350 2200 6950 2200
-Wire Wire Line
-	6100 2250 6100 1400
-Wire Wire Line
-	7900 1400 7900 2050
-Wire Wire Line
-	7900 2050 7750 2050
-Wire Wire Line
 	5700 2250 6000 2250
-Wire Wire Line
-	7750 2350 7750 2800
 Wire Wire Line
 	5100 2800 5100 3350
 Wire Wire Line
@@ -515,20 +427,6 @@ F 3 "~" H 6100 3000 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	6100 1400 7900 1400
-Wire Wire Line
-	6350 2200 6350 1100
-Wire Wire Line
-	6350 1100 6400 1100
-Wire Wire Line
-	6550 1200 6550 1100
-Wire Wire Line
-	6550 1100 6600 1100
-Wire Wire Line
-	6600 1100 6600 900 
-Wire Wire Line
-	7750 2800 6200 2800
-Wire Wire Line
 	6100 2800 6100 2450
 Wire Wire Line
 	6100 2450 5700 2450
@@ -538,13 +436,49 @@ Wire Wire Line
 	5700 2800 5100 2800
 Wire Wire Line
 	6000 2800 6000 2250
-Connection ~ 6000 2250
-Wire Wire Line
-	6000 2250 6100 2250
 Wire Wire Line
 	5800 3300 6450 3300
 Wire Wire Line
 	5800 3900 6400 3900
 Wire Wire Line
 	5850 4550 6400 4550
+Wire Wire Line
+	2400 1900 2400 2050
+Wire Wire Line
+	2200 2050 2400 2050
+Wire Wire Line
+	2400 2050 3100 2050
+Connection ~ 2400 2050
+$Comp
+L 74xGxx:74AHCT1G04 U8
+U 1 1 5C82D5AD
+P 7200 2350
+F 0 "U8" V 7129 2480 50  0000 L CNN
+F 1 "74AHC1G04" V 7220 2480 50  0000 L CNN
+F 2 "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" H 7200 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7200 2350 50  0001 C CNN
+	1    7200 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5C83A55E
+P 7200 1800
+F 0 "R1" H 7259 1846 50  0000 L CNN
+F 1 "1k" H 7259 1755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 7200 1800 50  0001 C CNN
+F 3 "~" H 7200 1800 50  0001 C CNN
+	1    7200 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2800 7200 2800
+Wire Wire Line
+	7200 2800 7200 2600
+Wire Wire Line
+	7400 1300 7650 1300
+Wire Wire Line
+	7200 1500 7200 1700
+Wire Wire Line
+	7200 1900 7200 2050
 $EndSCHEMATC
