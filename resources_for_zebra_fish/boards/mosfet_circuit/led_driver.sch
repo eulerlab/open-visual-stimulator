@@ -1,0 +1,230 @@
+EESchema Schematic File Version 4
+LIBS:led_driver-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R4
+U 1 1 5C3C7D9C
+P 8250 4700
+F 0 "R4" V 8043 4700 50  0000 C CNN
+F 1 "0.5 20W" V 8134 4700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8180 4700 50  0001 C CNN
+F 3 "~" H 8250 4700 50  0001 C CNN
+	1    8250 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 5C3C7F63
+P 8800 4700
+F 0 "RV2" V 8593 4700 50  0000 C CNN
+F 1 "pot_min5W" V 8684 4700 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA14-H5_Horizontal" H 8800 4700 50  0001 C CNN
+F 3 "~" H 8800 4700 50  0001 C CNN
+	1    8800 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5C3C8189
+P 9450 4700
+F 0 "J4" H 9530 4692 50  0000 L CNN
+F 1 "LED" H 9530 4601 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 9450 4700 50  0001 C CNN
+F 3 "~" H 9450 4700 50  0001 C CNN
+	1    9450 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4700 8650 4700
+Wire Wire Line
+	8800 4850 9100 4850
+Wire Wire Line
+	9100 4850 9100 4700
+Wire Wire Line
+	9100 4700 9250 4700
+$Comp
+L Transistor_FET:IRF7404 Q2
+U 1 1 5C3CF4F2
+P 6900 4800
+F 0 "Q2" V 7243 4800 50  0000 C CNN
+F 1 "P-Chan_mosfet" V 7152 4800 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7100 4725 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 6900 4800 50  0001 L CNN
+	1    6900 4800
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_FET:CSD17577Q5A Q1
+U 1 1 5C3CF5A5
+P 6800 5400
+F 0 "Q1" H 7006 5446 50  0000 L CNN
+F 1 "N_chan_mosfet" H 7006 5355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7000 5325 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd17577q5a" V 6800 5400 50  0001 L CNN
+	1    6800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4700 6300 4700
+Wire Wire Line
+	6900 5200 6900 5100
+$Comp
+L Device:R R1
+U 1 1 5C3DC663
+P 6450 5100
+F 0 "R1" V 6243 5100 50  0000 C CNN
+F 1 "220" V 6334 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6380 5100 50  0001 C CNN
+F 3 "~" H 6450 5100 50  0001 C CNN
+	1    6450 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 5100 6900 5100
+Connection ~ 6900 5100
+Wire Wire Line
+	6900 5100 6900 5000
+Wire Wire Line
+	6300 5100 6300 4800
+Wire Wire Line
+	7100 4700 7350 4700
+$Comp
+L power:GND #PWR03
+U 1 1 5C3E3FAD
+P 6900 5700
+F 0 "#PWR03" H 6900 5450 50  0001 C CNN
+F 1 "GND" H 6905 5527 50  0000 C CNN
+F 2 "" H 6900 5700 50  0001 C CNN
+F 3 "" H 6900 5700 50  0001 C CNN
+	1    6900 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5600 6900 5650
+$Comp
+L power:GND #PWR04
+U 1 1 5C3E5534
+P 7350 4200
+F 0 "#PWR04" H 7350 3950 50  0001 C CNN
+F 1 "GND" H 7355 4027 50  0000 C CNN
+F 2 "" H 7350 4200 50  0001 C CNN
+F 3 "" H 7350 4200 50  0001 C CNN
+	1    7350 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C3E558B
+P 7350 4450
+F 0 "R3" V 7143 4450 50  0000 C CNN
+F 1 "1k" V 7234 4450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7280 4450 50  0001 C CNN
+F 3 "~" H 7350 4450 50  0001 C CNN
+	1    7350 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 4600 7350 4700
+Connection ~ 7350 4700
+Wire Wire Line
+	7350 4700 8100 4700
+$Comp
+L Device:R R2
+U 1 1 5C3E8014
+P 6600 5650
+F 0 "R2" V 6393 5650 50  0000 C CNN
+F 1 "220" V 6484 5650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 5650 50  0001 C CNN
+F 3 "~" H 6600 5650 50  0001 C CNN
+	1    6600 5650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 5800 6800 5800
+Wire Wire Line
+	6800 5800 6800 5650
+Wire Wire Line
+	6800 5650 6900 5650
+Connection ~ 6900 5650
+Wire Wire Line
+	6900 5650 6900 5700
+Wire Wire Line
+	6600 5500 6600 5400
+Wire Wire Line
+	6350 5400 6600 5400
+Connection ~ 6600 5400
+NoConn ~ 8950 4700
+$Comp
+L power:GND #PWR05
+U 1 1 5C418E15
+P 9200 4950
+F 0 "#PWR05" H 9200 4700 50  0001 C CNN
+F 1 "GND" H 9205 4777 50  0000 C CNN
+F 2 "" H 9200 4950 50  0001 C CNN
+F 3 "" H 9200 4950 50  0001 C CNN
+	1    9200 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 4950 9200 4800
+Wire Wire Line
+	9200 4800 9250 4800
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5C45ED44
+P 5800 5700
+F 0 "J2" H 5730 5938 50  0000 C CNN
+F 1 "control_in" H 5730 5847 50  0000 C CNN
+F 2 "Connector_Coaxial_extra:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 5800 5700 50  0001 C CNN
+F 3 " ~" H 5800 5700 50  0001 C CNN
+	1    5800 5700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 5700 6350 5700
+Wire Wire Line
+	6350 5700 6350 5400
+Wire Wire Line
+	5800 5900 6800 5900
+Wire Wire Line
+	6800 5900 6800 5800
+Connection ~ 6800 5800
+Wire Wire Line
+	7350 4200 7350 4250
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5C51C36B
+P 5750 4800
+F 0 "J1" H 5830 4792 50  0000 L CNN
+F 1 "Vin" H 5830 4701 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 5750 4800 50  0001 C CNN
+F 3 "~" H 5750 4800 50  0001 C CNN
+	1    5750 4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 4250 7350 4250
+Wire Wire Line
+	5950 4250 5950 4700
+Connection ~ 7350 4250
+Wire Wire Line
+	7350 4250 7350 4300
+Wire Wire Line
+	5950 4800 6300 4800
+Connection ~ 6300 4800
+Wire Wire Line
+	6300 4800 6300 4700
+$EndSCHEMATC
