@@ -1,11 +1,5 @@
-LEDs_Setup2_20180821_6_green: step size 17, normal max intesnity (used in experiments)
-LEDs_Setup2_20180821_8_green: step size 17, high max intesnity (max gain)
+LEDs_Setup2_20190130: Measurement of maximal intensity of UV and green LED (1 sample at 255 contrast)
 
-LEDs_Setup2_20180821_9_green: step size 2, high max intesnity (max gain)
-LEDs_Setup2_20180821_9_UV: step size 2, high max intesnity (max gain)
+LEDs_Setup2_20180821: Measurement of contrast curve of UV and green LED (128 samples from 0 to 255 in steps of 2) to estimate GammaLUT
 
-LEDs_Setup2_20180821_10_UV: step size 17, high max intesnity (max gain)
-
-LEDs_Setup2_20180821_12_green: step size 1, high max intesnity (max gain)
-
-LEDs_Setup2_20180823_2_green/UV: step size 2, high max intensity (max gain), with gamma table estimated on data from LEDs_Setup2_20180821_9
+LEDs_Setup_20180823: Measurement of contrast curve of UV and green LED (128 samples from 0 to 255 in steps of 2), corrected with GammaLUT
