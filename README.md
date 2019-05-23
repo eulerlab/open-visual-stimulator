@@ -1,8 +1,10 @@
 ## Open Visual Stimulator
 
-A chromatic stimulator for the vertebrate visual system ...  
-(Repository for all documents related to the stimulator manuscript)
+This repository holds the resources for a flexible, spatial visual stimulator with up to 6 chromatic channels. It combines commercial digital light processing (DLP) devices with open hard- and software components that can be easily adapted to the experimentalist’s specific needs. With this we intend to start a community effort of sharing and further developing a common stimulator design. 
 
+Please find more details on the stimulator in the following paper:
+
+Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Euler T# (2019) "An arbitrary-spectrum spatial visual stimulator for vision research" ...
 
 ## Structure of this repository 
 
