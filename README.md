@@ -19,14 +19,13 @@ A chromatic stimulator for the vertebrate visual system ...
 |   |                                   (e.g. fish "cinema")
 │   └───optical_components              - optomechanical parts
 |
-├───scripts                             Python scripts used in iPython notebooks
-|
 ├───calibration_mouse                   Calibration of dichroic mouse stimulator
 │   ├───data                            - recorded calibration data (custom LEDs and TFT monitor)
 │   ├───datasheets                      - spectrometer data sheet, etc.
 │   ├───filters                         - dichroic filter spectra
 │   ├───light-sources                   - spectra of LEDs
 │   ├───opsins                          - mouse opsin sensitivity curves
+│   ├───scripts                         - Python scripts used in iPython notebooks
 |   └───spectrometer-calibration-files  - USB2+ calibration data
 |
 ├───calibration_zebrafish               Calibration of tetrachromatic zebrafish stimulator
