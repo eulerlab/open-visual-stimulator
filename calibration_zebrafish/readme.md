@@ -4,4 +4,4 @@
 
 It demonstrates the calibration of a tetrachromatic stimulator with red, blue, green and UV LEDs for Zebrafishlarvae, but it can be easily adapted to other light sources, as well as more and different spectral opsin sensitivities. For more details, see documentation in the notebook.
 
-`opsin_spectra_zebrafish.ipynb` - This iPython notebook calculates opsin spectra as described in Govardovskii *et al.*  (2000).
+`opsin_spectra_zebrafish.ipynb` - This iPython notebook calculates opsin spectra as described in [Govardovskii *et al.* (2000)](https://www.cambridge.org/core/journals/visual-neuroscience/article/in-search-of-the-visual-pigment-template/A4738E821720092B7F5A233C4AB4962B).
