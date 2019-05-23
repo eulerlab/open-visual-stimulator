@@ -34,7 +34,7 @@ Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Eul
     ├───data                            - recorded calibration data (custom LEDs)
     ├───datasheets                      - various data sheets
     |   ├───built-in_leds               - for LEDs
-    |   ├───lcr_n_blanking_board        - for other components
+    |   └───lcr_n_blanking_board        - for other components
     ├───lcr_emulator                    - Arduino code for xxx
     └───led_spectra_after_teflon        - LED spectra measured behind the teflon screen
 ```
