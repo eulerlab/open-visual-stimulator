@@ -6,7 +6,7 @@ Please find more details on the stimulator in the following preprint:
 
 Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Euler T# (2019). An arbitrary-spectrum spatial visual stimulator for vision research. xxx
 
-## Structure of this repository 
+## Repository structure
 
 ```
 ├───boards                              LED driver/blanking boards
