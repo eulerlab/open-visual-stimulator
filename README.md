@@ -32,6 +32,7 @@ Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Eul
 |   └───spectrometer-calibration-files  - USB2+ calibration data
 |
 └───calibration_zebrafish               Calibration of tetrachromatic zebrafish stimulator
+    ├───scripts                         - Python scripts used in iPython notebooks
     ├───data                            - recorded calibration data
     ├───datasheets                      - spectrometer data sheet, etc.
     └───led_spectra_after_teflon        - LED spectra measured behind the teflon screen
