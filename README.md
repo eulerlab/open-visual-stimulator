@@ -4,7 +4,7 @@ This repository holds the resources for a flexible, spatial visual stimulator wi
 
 Please find more details on the stimulator in the following paper:
 
-Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Euler T# (2019) "An arbitrary-spectrum spatial visual stimulator for vision research" ...
+Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Euler T# (2019). An arbitrary-spectrum spatial visual stimulator for vision research. xxx
 
 ## Structure of this repository 
 
