@@ -34,7 +34,9 @@ Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Eul
 |
 └───calibration_zebrafish                 Calibration of tetrachromatic zebrafish stimulator
     ├───data                              - recorded calibration data
+    |    ├───powermeter_recording
     |    └───spectrometer_recording
+    |        └───correction_curves
     ├───datasheets                        - spectrometer data sheet, etc.
     └───led_spectra_after_teflon          - LED spectra measured behind the teflon screen
 ```
