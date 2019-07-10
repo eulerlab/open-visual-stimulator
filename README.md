@@ -40,3 +40,18 @@ Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Eul
     ├───datasheets                        - spectrometer data sheet, etc.
     └───led_spectra_after_teflon          - LED spectra measured behind the teflon screen
 ```
+## information about the printed circuit boards:
+
+This project contains two boards. One is an add on to the lightcrafter. It mainly combines signals from the lightcrafter with an external "blanking signal" (for details see manuscript), to independently control 3 LEDs per lightcrafter device. The other board takes an logic 5V signal and uses it to turn the power to LEDs on and off.
+
+Both boards:
+
+- have been created using KiCad 5
+- Can be ordered using the the Gerber.zip file present on each board subfolder.
+ - Several on "board on demand" companies are available, and the process of ordering is pretty much the same. A more detailed tutorial on how to do so can be found [here](https://www.youtube.com/watch?v=ENmDnoKs2hM). For simply using the already available compressed files, go to minute seven of the video.
+ - Companies providing this service include:
+
+   - JLCPCB
+   - PCBWAY
+   - OSH PARK
+   - AISLER
