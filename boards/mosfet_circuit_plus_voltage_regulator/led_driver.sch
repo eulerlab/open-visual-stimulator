@@ -536,4 +536,15 @@ F 3 "~" H 5350 3050 50  0001 C CNN
 	1    5350 3050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D2610E5
+P 6150 2800
+F 0 "H4" H 6250 2846 50  0000 L CNN
+F 1 "MountingHole" H 6250 2755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 2800 50  0001 C CNN
+F 3 "~" H 6150 2800 50  0001 C CNN
+	1    6150 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

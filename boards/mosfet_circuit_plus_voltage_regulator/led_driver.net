@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/andre/Documents/repositories/amchagas/open-visual-stimulator/boards/mosfet_circuit_plus_voltage_regulator/led_driver.sch)
-    (date "Wed 10 Jul 2019 10:18:30 BST")
+    (date "Wed 10 Jul 2019 15:31:00 BST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -189,7 +189,14 @@
       (datasheet ~)
       (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5D25C8A2)))
+      (tstamp 5D25C8A2))
+    (comp (ref H4)
+      (value MountingHole)
+      (footprint MountingHole:MountingHole_3.2mm_M3)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5D2610E5)))
   (libparts
     (libpart (lib Connector) (part Conn_Coaxial)
       (description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)")
