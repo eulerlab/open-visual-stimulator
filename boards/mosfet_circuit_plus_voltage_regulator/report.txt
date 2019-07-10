@@ -1,0 +1,2 @@
+Annotated LM2596T-5 as U1
+Annotated LM2596T-ADJ as U2
