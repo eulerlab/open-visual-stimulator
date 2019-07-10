@@ -1,0 +1,13 @@
+multi:
+    project_one:
+        summary: A board for fast switching leds on/off, part of the Open source visual stimulator project
+        color: green
+        site: https://www.biorxiv.org/content/10.1101/649566v1
+        bom: boards/mosfet_circuit/1-click-bom.csv
+        gerbers: boards/mosfet_circuit/gerber
+    project_two:
+        summary: A board for integrating signals from a lightcrafter to a 2P microscope, part of the Open source visual stimulator project
+        color: green
+        site: https://www.biorxiv.org/content/10.1101/649566v1
+        bom: boards/lcr_add-on/1-click-bom.csv
+        gerbers: boards/lcr_add-on/gerber
