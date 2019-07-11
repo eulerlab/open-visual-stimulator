@@ -41,4 +41,6 @@ Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Eul
     └───led_spectra_after_teflon          - LED spectra measured behind the teflon screen
 ```
 
-### readers interested in ordering boards and components can find more information on the boards folder [readme.md file](https://github.com/eulerlab/open-visual-stimulator/blob/master/boards/readme.md) 
+### Ordering of PCB boards
+
+If you are interested in ordering boards and components, please find more information in the boards folder [readme.md file](https://github.com/eulerlab/open-visual-stimulator/blob/master/boards/readme.md). 
