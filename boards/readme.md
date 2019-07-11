@@ -26,5 +26,5 @@ Both boards:
 
 Components are listed on each board folder on a "comma separated value" file named "1-click-bom.csv" Listed in the file are the quantity, identification and supplier of each component. They can also be ordered using [KitSpace](kitspace.org):
 
- - Place holder for when the link to board1 is up 
- - Place holder for when the link to board2 is up
+ - [LCr_addon on kitspace](https://kitspace.org/boards/github.com/eulerlab/open-visual-stimulator/boards/lcr_add-on/)
+ - [mosfet circuit on kitspace](https://kitspace.org/boards/github.com/eulerlab/open-visual-stimulator/boards/mosfet_circuit/)
