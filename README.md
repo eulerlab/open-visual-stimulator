@@ -6,6 +6,10 @@ Please find more details on the stimulator in the following preprint:
 
 Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Euler T# (2019). Preprint: An arbitrary-spectrum spatial visual stimulator for vision research. bioRxiv [10.1101/649566](https://www.biorxiv.org/content/10.1101/649566v1)
 
+### Ordering of PCB boards
+
+If you are interested in ordering boards and components, please find more information in the boards folder [readme.md file](https://github.com/eulerlab/open-visual-stimulator/blob/master/boards/readme.md). 
+
 ## Repository structure
 
 ```
@@ -40,7 +44,3 @@ Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Eul
     ├───datasheets                        - spectrometer data sheet, etc.
     └───led_spectra_after_teflon          - LED spectra measured behind the teflon screen
 ```
-
-### Ordering of PCB boards
-
-If you are interested in ordering boards and components, please find more information in the boards folder [readme.md file](https://github.com/eulerlab/open-visual-stimulator/blob/master/boards/readme.md). 
