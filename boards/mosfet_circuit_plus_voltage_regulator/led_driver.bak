@@ -20,7 +20,7 @@ U 1 1 5C3C7D9C
 P 9450 3550
 F 0 "R7" V 9243 3550 50  0000 C CNN
 F 1 "0.5 20W" V 9334 3550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9380 3550 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" V 9380 3550 50  0001 C CNN
 F 3 "~" H 9450 3550 50  0001 C CNN
 	1    9450 3550
 	0    1    1    0   
@@ -302,7 +302,7 @@ U 1 1 5D2002D5
 P 2000 3100
 F 0 "R2" V 1793 3100 50  0000 C CNN
 F 1 "0.22ohm" V 1884 3100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 3100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 1930 3100 50  0001 C CNN
 F 3 "~" H 2000 3100 50  0001 C CNN
 	1    2000 3100
 	-1   0    0    1   
@@ -359,7 +359,7 @@ U 1 1 5D208416
 P 3550 4250
 F 0 "RV1" V 3436 4250 50  0000 C CNN
 F 1 "5kohm" V 3345 4250 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA14-H5_Horizontal" H 3550 4250 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" H 3550 4250 50  0001 C CNN
 F 3 "~" H 3550 4250 50  0001 C CNN
 	1    3550 4250
 	0    -1   -1   0   
@@ -537,10 +537,10 @@ F 3 "~" H 5350 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 5D2610E5
 P 6150 2800
-F 0 "H?" H 6250 2846 50  0000 L CNN
+F 0 "H4" H 6250 2846 50  0000 L CNN
 F 1 "MountingHole" H 6250 2755 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 2800 50  0001 C CNN
 F 3 "~" H 6150 2800 50  0001 C CNN
