@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/andre/Documents/repositories/amchagas/open-visual-stimulator/boards/mosfet_circuit_plus_voltage_regulator/led_driver.sch</source>
-    <date>Tue 16 Jul 2019 15:12:34 BST</date>
+    <date>Fri 19 Jul 2019 14:24:53 BST</date>
     <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -21,7 +21,7 @@
   <components>
     <comp ref="R7">
       <value>0.5 20W</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <footprint>Package_TO_SOT_THT:TO-220-2_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -125,7 +125,7 @@
     </comp>
     <comp ref="R2">
       <value>0.22ohm</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -141,7 +141,7 @@
     </comp>
     <comp ref="RV1">
       <value>5kohm</value>
-      <footprint>Potentiometer_THT:Potentiometer_ACP_CA14-H5_Horizontal</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
@@ -165,7 +165,7 @@
     </comp>
     <comp ref="L1">
       <value>120µH</value>
-      <footprint>Inductor_THT:L_Radial_D7.0mm_P3.00mm</footprint>
+      <footprint>Inductor_THT:L_Radial_D7.5mm_P5.00mm_Fastron_07P</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="L" description="Inductor"/>
       <sheetpath names="/" tstamps="/"/>
