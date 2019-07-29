@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.2-bee76a0~70~ubuntu18.04.1*
-G04 #@! TF.CreationDate,2019-07-19T14:17:51+01:00*
+G04 #@! TF.CreationDate,2019-07-29T09:45:32+01:00*
 G04 #@! TF.ProjectId,led_driver,6c65645f-6472-4697-9665-722e6b696361,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L1,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.0.2-bee76a0~70~ubuntu18.04.1) date Fri 19 Jul 2019 14:17:51 BST*
+G04 Created by KiCad (PCBNEW 5.0.2-bee76a0~70~ubuntu18.04.1) date Mon 29 Jul 2019 09:45:32 BST*
 %MOMM*%
 %LPD*%
 G01*
@@ -417,9 +417,6 @@ X139920000Y-99600000D01*
 X139840000Y-96000000D02*
 X139920000Y-96080000D01*
 D31*
-G04 #@! TO.N,Net-(C1-Pad1)*
-X124714000Y-71005200D02*
-X124358400Y-71360800D01*
 G04 #@! TO.N,Net-(C2-Pad1)*
 X120500001Y-84200001D02*
 X121500000Y-85200000D01*

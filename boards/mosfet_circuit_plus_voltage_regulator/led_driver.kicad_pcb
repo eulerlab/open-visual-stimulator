@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 12)
-    (tracks 140)
+    (drawings 13)
+    (tracks 139)
     (zones 0)
     (modules 26)
     (nets 15)
@@ -1673,7 +1673,7 @@
     (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
     (tags "TO-220-2 Vertical RM 5.08mm")
     (path /5C3C7D9C)
-    (fp_text reference R7 (at 2.54 -4.27 180) (layer F.SilkS)
+    (fp_text reference R7 (at 7 2.35 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "0.5 20W" (at 2.54 2.5 180) (layer F.SilkS)
@@ -1765,6 +1765,9 @@
     )
   )
 
+  (gr_text "CERN OHL v1.2\nby amchagas\n20190729" (at 126.25 57.75) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text 1 (at 129.4 69.4 270) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -1854,7 +1857,6 @@
   (segment (start 139.84 92.955) (end 139.84 82.82) (width 1) (layer B.Cu) (net 4))
   (segment (start 139.92 96.08) (end 139.92 99.6) (width 1) (layer F.Cu) (net 4))
   (segment (start 139.84 96) (end 139.92 96.08) (width 1) (layer F.Cu) (net 4))
-  (segment (start 124.714 71.0052) (end 124.3584 71.3608) (width 0.75) (layer F.Cu) (net 5))
   (segment (start 124.714 67.2968) (end 124.714 71.0052) (width 0.75) (layer B.Cu) (net 5))
   (segment (start 120.500001 84.200001) (end 121.5 85.2) (width 0.75) (layer F.Cu) (net 6))
   (segment (start 116.6 84.2) (end 120.500001 84.200001) (width 0.75) (layer F.Cu) (net 6))
