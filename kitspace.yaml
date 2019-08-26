@@ -11,3 +11,9 @@ multi:
         site: https://www.biorxiv.org/content/10.1101/649566v1
         bom: boards/lcr_add-on/1-click-bom.csv
         gerbers: boards/lcr_add-on/gerber
+    boards/mosfet_circuit_plus_voltage_regulator:
+        summary:  A variable voltage regulator and mosfet board for fast switching leds on/off, part of the Open source visual stimulator project
+        color: green
+        site: https://www.biorxiv.org/content/10.1101/649566v1
+        bom: boards/mosfet_circuit_plus_voltage_regulator/1-click-bom.csv
+        gerbers: boards/mosfet_circuit_plus_voltage_regulator/gerbers
