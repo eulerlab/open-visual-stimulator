@@ -1,0 +1,716 @@
+EESchema Schematic File Version 4
+LIBS:ss_relay-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ss_relay-rescue:R R3
+U 1 1 5A43A69A
+P 7100 3100
+F 0 "R3" V 7180 3100 50  0000 C CNN
+F 1 "540" V 7100 3100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 7030 3100 50  0001 C CNN
+F 3 "" H 7100 3100 50  0000 C CNN
+	1    7100 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L ss_relay-rescue:TLP291 U10
+U 1 1 5A43A6A1
+P 7750 1700
+F 0 "U10" H 7550 1900 50  0000 L CNN
+F 1 "TLP291" H 7750 1900 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 7550 1500 50  0000 L CIN
+F 3 "" H 7750 1700 50  0000 L CNN
+	1    7750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:TLP291 U11
+U 1 1 5A43A6A8
+P 7750 2350
+F 0 "U11" H 7550 2550 50  0000 L CNN
+F 1 "TLP291" H 7750 2550 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 7550 2150 50  0000 L CIN
+F 3 "" H 7750 2350 50  0000 L CNN
+	1    7750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:TLP291 U12
+U 1 1 5A43A6AF
+P 7750 3000
+F 0 "U12" H 7550 3200 50  0000 L CNN
+F 1 "TLP291" H 7750 3200 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 7550 2800 50  0000 L CIN
+F 3 "" H 7750 3000 50  0000 L CNN
+	1    7750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:BNC P5
+U 1 1 5A43A6B6
+P 7050 1950
+F 0 "P5" H 7060 2070 50  0000 C CNN
+F 1 "blanking" V 7150 1950 50  0000 C CNN
+F 2 "Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads" H 7050 1950 50  0001 C CNN
+F 3 "" H 7050 1950 50  0000 C CNN
+	1    7050 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5A43A6DD
+P 6750 1950
+F 0 "#PWR01" H 6750 1700 50  0001 C CNN
+F 1 "GND" H 6750 1800 50  0000 C CNN
+F 2 "" H 6750 1950 50  0000 C CNN
+F 3 "" H 6750 1950 50  0000 C CNN
+	1    6750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L ss_relay-rescue:BNC P9
+U 1 1 5A439781
+P 10300 1450
+F 0 "P9" H 10300 1600 50  0000 C CNN
+F 1 "LED1" V 10400 1450 50  0000 C CNN
+F 2 "Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads" H 10300 1450 50  0001 C CNN
+F 3 "" H 10300 1450 50  0000 C CNN
+	1    10300 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L ss_relay-rescue:R R5
+U 1 1 5A54BBD2
+P 10050 1250
+F 0 "R5" V 10130 1250 50  0000 C CNN
+F 1 "2" V 10050 1250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_Power_L50.0mm_W9.0mm_P60.96mm" V 9980 1250 50  0001 C CNN
+F 3 "" H 10050 1250 50  0000 C CNN
+	1    10050 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L ss_relay-rescue:POT RV4
+U 1 1 5A54BCFC
+P 9550 1250
+F 0 "RV4" H 9550 1150 50  0000 C CNN
+F 1 "500" H 9550 1250 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK163_Single_Vertical" H 9550 1250 50  0001 C CNN
+F 3 "" H 9550 1250 50  0000 C CNN
+	1    9550 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L ss_relay-rescue:BNC P7
+U 1 1 5A54BE97
+P 8550 1450
+F 0 "P7" H 8550 1600 50  0000 C CNN
+F 1 "LCR1" V 8650 1450 50  0000 C CNN
+F 2 "Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads" H 8550 1450 50  0001 C CNN
+F 3 "" H 8550 1450 50  0000 C CNN
+	1    8550 1450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9300 1250
+$Comp
+L ss_relay-rescue:TLP291 U7
+U 1 1 5A574D5F
+P 7700 4150
+F 0 "U7" H 7500 4350 50  0000 L CNN
+F 1 "TLP291" H 7700 4350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 7500 3950 50  0000 L CIN
+F 3 "" H 7700 4150 50  0000 L CNN
+	1    7700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:TLP291 U8
+U 1 1 5A574D65
+P 7700 4800
+F 0 "U8" H 7500 5000 50  0000 L CNN
+F 1 "TLP291" H 7700 5000 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 7500 4600 50  0000 L CIN
+F 3 "" H 7700 4800 50  0000 L CNN
+	1    7700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:TLP291 U9
+U 1 1 5A574D6B
+P 7700 5450
+F 0 "U9" H 7500 5650 50  0000 L CNN
+F 1 "TLP291" H 7700 5650 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 7500 5250 50  0000 L CIN
+F 3 "" H 7700 5450 50  0000 L CNN
+	1    7700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:BNC P8
+U 1 1 5A574D71
+P 10250 3900
+F 0 "P8" H 10250 4050 50  0000 C CNN
+F 1 "LED2" V 10350 3900 50  0000 C CNN
+F 2 "Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads" H 10250 3900 50  0001 C CNN
+F 3 "" H 10250 3900 50  0000 C CNN
+	1    10250 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L ss_relay-rescue:R R4
+U 1 1 5A574D77
+P 10000 3700
+F 0 "R4" V 10080 3700 50  0000 C CNN
+F 1 "2" V 10000 3700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_Power_L50.0mm_W9.0mm_P60.96mm" V 9930 3700 50  0001 C CNN
+F 3 "" H 10000 3700 50  0000 C CNN
+	1    10000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L ss_relay-rescue:POT RV3
+U 1 1 5A574D7D
+P 9500 3700
+F 0 "RV3" H 9500 3600 50  0000 C CNN
+F 1 "500" H 9500 3700 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK163_Single_Vertical" H 9500 3700 50  0001 C CNN
+F 3 "" H 9500 3700 50  0000 C CNN
+	1    9500 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L ss_relay-rescue:BNC P6
+U 1 1 5A574D83
+P 8500 3900
+F 0 "P6" H 8500 4050 50  0000 C CNN
+F 1 "LCR2" V 8600 3900 50  0000 C CNN
+F 2 "Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads" H 8500 3900 50  0001 C CNN
+F 3 "" H 8500 3900 50  0000 C CNN
+	1    8500 3900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9250 3700
+$Comp
+L ss_relay-rescue:TLP291 U4
+U 1 1 5A57579F
+P 4550 4150
+F 0 "U4" H 4350 4350 50  0000 L CNN
+F 1 "TLP291" H 4550 4350 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 4350 3950 50  0000 L CIN
+F 3 "" H 4550 4150 50  0000 L CNN
+	1    4550 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:TLP291 U5
+U 1 1 5A5757A5
+P 4550 4800
+F 0 "U5" H 4350 5000 50  0000 L CNN
+F 1 "TLP291" H 4550 5000 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 4350 4600 50  0000 L CIN
+F 3 "" H 4550 4800 50  0000 L CNN
+	1    4550 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:TLP291 U6
+U 1 1 5A5757AB
+P 4550 5450
+F 0 "U6" H 4350 5650 50  0000 L CNN
+F 1 "TLP291" H 4550 5650 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 4350 5250 50  0000 L CIN
+F 3 "" H 4550 5450 50  0000 L CNN
+	1    4550 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:BNC P2
+U 1 1 5A5757B1
+P 2000 3900
+F 0 "P2" H 2000 4050 50  0000 C CNN
+F 1 "LED3" V 2100 3900 50  0000 C CNN
+F 2 "Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads" H 2000 3900 50  0001 C CNN
+F 3 "" H 2000 3900 50  0000 C CNN
+	1    2000 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L ss_relay-rescue:R R2
+U 1 1 5A5757B7
+P 2250 3700
+F 0 "R2" V 2330 3700 50  0000 C CNN
+F 1 "5" V 2250 3700 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_Power_L50.0mm_W9.0mm_P60.96mm" V 2180 3700 50  0001 C CNN
+F 3 "" H 2250 3700 50  0000 C CNN
+	1    2250 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L ss_relay-rescue:POT RV2
+U 1 1 5A5757BD
+P 2750 3700
+F 0 "RV2" H 2750 3600 50  0000 C CNN
+F 1 "500" H 2750 3700 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK163_Single_Vertical" H 2750 3700 50  0001 C CNN
+F 3 "" H 2750 3700 50  0000 C CNN
+	1    2750 3700
+	1    0    0    1   
+$EndComp
+$Comp
+L ss_relay-rescue:BNC P4
+U 1 1 5A5757C3
+P 3750 3900
+F 0 "P4" H 3750 4050 50  0000 C CNN
+F 1 "LCR3" V 3850 3900 50  0000 C CNN
+F 2 "Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads" H 3750 3900 50  0001 C CNN
+F 3 "" H 3750 3900 50  0000 C CNN
+	1    3750 3900
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3000 3700
+$Comp
+L ss_relay-rescue:TLP291 U1
+U 1 1 5A575BCD
+P 4350 1300
+F 0 "U1" H 4150 1500 50  0000 L CNN
+F 1 "TLP291" H 4350 1500 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 4150 1100 50  0000 L CIN
+F 3 "" H 4350 1300 50  0000 L CNN
+	1    4350 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:TLP291 U2
+U 1 1 5A575BD3
+P 4350 1950
+F 0 "U2" H 4150 2150 50  0000 L CNN
+F 1 "TLP291" H 4350 2150 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 4150 1750 50  0000 L CIN
+F 3 "" H 4350 1950 50  0000 L CNN
+	1    4350 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:TLP291 U3
+U 1 1 5A575BD9
+P 4350 2600
+F 0 "U3" H 4150 2800 50  0000 L CNN
+F 1 "TLP291" H 4350 2800 50  0000 L CNN
+F 2 "Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm" H 4150 2400 50  0000 L CIN
+F 3 "" H 4350 2600 50  0000 L CNN
+	1    4350 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ss_relay-rescue:BNC P1
+U 1 1 5A575BDF
+P 1800 1050
+F 0 "P1" H 1800 1200 50  0000 C CNN
+F 1 "LED4" V 1900 1050 50  0000 C CNN
+F 2 "Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads" H 1800 1050 50  0001 C CNN
+F 3 "" H 1800 1050 50  0000 C CNN
+	1    1800 1050
+	1    0    0    1   
+$EndComp
+$Comp
+L ss_relay-rescue:R R1
+U 1 1 5A575BE5
+P 2050 850
+F 0 "R1" V 2130 850 50  0000 C CNN
+F 1 "5" V 2050 850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_Power_L50.0mm_W9.0mm_P60.96mm" V 1980 850 50  0001 C CNN
+F 3 "" H 2050 850 50  0000 C CNN
+	1    2050 850 
+	0    -1   1    0   
+$EndComp
+$Comp
+L ss_relay-rescue:POT RV1
+U 1 1 5A575BEB
+P 2550 850
+F 0 "RV1" H 2550 750 50  0000 C CNN
+F 1 "500" H 2550 850 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps_RK163_Single_Vertical" H 2550 850 50  0001 C CNN
+F 3 "" H 2550 850 50  0000 C CNN
+	1    2550 850 
+	1    0    0    1   
+$EndComp
+$Comp
+L ss_relay-rescue:BNC P3
+U 1 1 5A575BF1
+P 3550 1050
+F 0 "P3" H 3550 1200 50  0000 C CNN
+F 1 "LCR4" V 3650 1050 50  0000 C CNN
+F 2 "Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads" H 3550 1050 50  0001 C CNN
+F 3 "" H 3550 1050 50  0000 C CNN
+	1    3550 1050
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2800 850 
+$Comp
+L ss_relay-rescue:R R6
+U 1 1 5A590796
+P 7100 2950
+F 0 "R6" V 7180 2950 50  0000 C CNN
+F 1 "540" V 7100 2950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal" V 7030 2950 50  0001 C CNN
+F 3 "" H 7100 2950 50  0000 C CNN
+	1    7100 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 3100 8050 3100
+Connection ~ 8250 2250
+Wire Wire Line
+	8250 2900 8050 2900
+Connection ~ 8250 1650
+Wire Wire Line
+	8250 2250 8050 2250
+Wire Wire Line
+	8250 1450 8250 1650
+Wire Wire Line
+	9200 1800 9200 2450
+Wire Wire Line
+	8050 1800 9200 1800
+Wire Wire Line
+	8050 1650 8050 1600
+Wire Wire Line
+	7350 1800 7450 1800
+Connection ~ 7250 1600
+Connection ~ 7350 3100
+Connection ~ 7350 2450
+Wire Wire Line
+	7350 2450 7450 2450
+Wire Wire Line
+	7350 1800 7350 2450
+Connection ~ 7250 2250
+Wire Wire Line
+	7250 2250 7450 2250
+Wire Wire Line
+	7250 1600 7250 2250
+Wire Wire Line
+	7250 2900 7450 2900
+Wire Wire Line
+	7050 1600 7050 1800
+Wire Wire Line
+	6100 1600 6450 1600
+Wire Wire Line
+	7250 3100 7350 3100
+Wire Wire Line
+	6950 3100 6850 3100
+Wire Wire Line
+	6850 3100 6850 1950
+Wire Wire Line
+	6850 1950 6750 1950
+Wire Wire Line
+	8050 1650 8250 1650
+Wire Wire Line
+	8250 1450 8400 1450
+Wire Wire Line
+	8750 1500 8750 1650
+Wire Wire Line
+	8750 1650 8550 1650
+Wire Wire Line
+	9550 1500 9550 1400
+Wire Wire Line
+	9800 1250 9900 1250
+Wire Wire Line
+	8750 1500 9550 1500
+Wire Wire Line
+	10200 1250 10300 1250
+Wire Wire Line
+	10450 1800 10450 1450
+Connection ~ 9200 1800
+Wire Wire Line
+	9200 2450 8050 2450
+Connection ~ 9200 2450
+Wire Wire Line
+	9150 5550 8000 5550
+Connection ~ 8200 4700
+Wire Wire Line
+	8200 5350 8000 5350
+Connection ~ 8200 4100
+Wire Wire Line
+	8200 4700 8000 4700
+Wire Wire Line
+	8200 3900 8200 4100
+Wire Wire Line
+	9150 4250 9150 4900
+Wire Wire Line
+	8000 4250 9150 4250
+Wire Wire Line
+	8000 4100 8000 4050
+Wire Wire Line
+	7300 4250 7400 4250
+Connection ~ 7300 5550
+Connection ~ 7300 4900
+Wire Wire Line
+	7300 4900 7400 4900
+Wire Wire Line
+	7300 4250 7300 4900
+Wire Wire Line
+	7200 4700 7400 4700
+Wire Wire Line
+	7200 5350 7400 5350
+Wire Wire Line
+	7150 5550 7300 5550
+Wire Wire Line
+	8000 4100 8200 4100
+Wire Wire Line
+	8200 3900 8350 3900
+Wire Wire Line
+	8700 3950 8700 4100
+Wire Wire Line
+	8700 4100 8500 4100
+Wire Wire Line
+	9500 3950 9500 3850
+Wire Wire Line
+	9750 3700 9850 3700
+Wire Wire Line
+	8700 3950 9500 3950
+Wire Wire Line
+	10150 3700 10250 3700
+Wire Wire Line
+	10400 4250 10400 3900
+Connection ~ 9150 4250
+Wire Wire Line
+	9150 4900 8000 4900
+Connection ~ 9150 4900
+Wire Wire Line
+	6450 1600 6450 4050
+Connection ~ 7050 1600
+Wire Wire Line
+	7200 4050 7200 4700
+Connection ~ 7200 4050
+Connection ~ 7200 4700
+Wire Wire Line
+	7150 5550 7150 3500
+Wire Wire Line
+	7150 3500 7350 3500
+Wire Wire Line
+	3100 5550 4250 5550
+Connection ~ 4050 4700
+Wire Wire Line
+	4050 5350 4250 5350
+Connection ~ 4050 4100
+Wire Wire Line
+	4050 4700 4250 4700
+Wire Wire Line
+	4050 3900 4050 4100
+Wire Wire Line
+	3100 4250 3100 4900
+Wire Wire Line
+	4250 4250 3100 4250
+Wire Wire Line
+	4250 4100 4250 4050
+Wire Wire Line
+	4950 4250 4850 4250
+Connection ~ 4950 5550
+Connection ~ 4950 4900
+Wire Wire Line
+	4950 4900 4850 4900
+Wire Wire Line
+	4950 4250 4950 4900
+Wire Wire Line
+	5050 4700 4850 4700
+Wire Wire Line
+	5050 5350 4850 5350
+Wire Wire Line
+	5100 5550 4950 5550
+Wire Wire Line
+	4250 4100 4050 4100
+Wire Wire Line
+	4050 3900 3900 3900
+Wire Wire Line
+	3550 3950 3550 4100
+Wire Wire Line
+	3550 4100 3750 4100
+Wire Wire Line
+	2750 3950 2750 3850
+Wire Wire Line
+	2500 3700 2400 3700
+Wire Wire Line
+	3550 3950 2750 3950
+Wire Wire Line
+	2100 3700 2000 3700
+Wire Wire Line
+	1850 4250 1850 3900
+Connection ~ 3100 4250
+Wire Wire Line
+	3100 4900 4250 4900
+Connection ~ 3100 4900
+Wire Wire Line
+	5050 4050 5050 4700
+Connection ~ 5050 4050
+Connection ~ 5050 4700
+Wire Wire Line
+	5100 5550 5100 3500
+Wire Wire Line
+	5100 3500 6950 3500
+Wire Wire Line
+	6950 3500 6950 3300
+Wire Wire Line
+	6950 3300 7350 3300
+Connection ~ 7350 3300
+Wire Wire Line
+	2900 2700 4050 2700
+Connection ~ 3850 1850
+Wire Wire Line
+	3850 2500 4050 2500
+Connection ~ 3850 1250
+Wire Wire Line
+	3850 1850 4050 1850
+Wire Wire Line
+	3850 1050 3850 1250
+Wire Wire Line
+	2900 1400 2900 2050
+Wire Wire Line
+	4050 1400 2900 1400
+Wire Wire Line
+	4050 1250 4050 1200
+Wire Wire Line
+	4750 1400 4650 1400
+Connection ~ 4750 2700
+Connection ~ 4750 2050
+Wire Wire Line
+	4750 2050 4650 2050
+Wire Wire Line
+	4750 1400 4750 2050
+Wire Wire Line
+	4850 1850 4650 1850
+Wire Wire Line
+	4850 2500 4650 2500
+Wire Wire Line
+	4650 2700 4750 2700
+Wire Wire Line
+	4050 1250 3850 1250
+Wire Wire Line
+	3850 1050 3700 1050
+Wire Wire Line
+	3350 1100 3350 1250
+Wire Wire Line
+	3350 1250 3550 1250
+Wire Wire Line
+	2550 1100 2550 1000
+Wire Wire Line
+	2300 850  2200 850 
+Wire Wire Line
+	3350 1100 2550 1100
+Wire Wire Line
+	1900 850  1800 850 
+Wire Wire Line
+	1650 1400 1650 1050
+Connection ~ 2900 1400
+Wire Wire Line
+	2900 2050 4050 2050
+Connection ~ 2900 2050
+Wire Wire Line
+	4850 1200 4850 1850
+Connection ~ 4850 1200
+Connection ~ 4850 1850
+Wire Wire Line
+	4850 4050 5050 4050
+Connection ~ 6450 4050
+Wire Wire Line
+	6100 1200 6100 1600
+Connection ~ 6450 1600
+Wire Wire Line
+	4650 1200 4850 1200
+Wire Wire Line
+	6150 2700 6150 3200
+Wire Wire Line
+	6150 3200 7350 3200
+Connection ~ 7350 3200
+Wire Wire Line
+	7250 2950 7250 3100
+Wire Wire Line
+	6950 2950 6950 3100
+Wire Wire Line
+	8250 2250 8250 2900
+Wire Wire Line
+	8250 1650 8250 2250
+Wire Wire Line
+	7250 1600 7450 1600
+Wire Wire Line
+	7350 3100 7350 3200
+Wire Wire Line
+	7350 3100 7450 3100
+Wire Wire Line
+	7350 2450 7350 3100
+Wire Wire Line
+	7250 2250 7250 2900
+Wire Wire Line
+	9200 1800 10450 1800
+Wire Wire Line
+	9200 2450 9200 3100
+Wire Wire Line
+	8200 4700 8200 5350
+Wire Wire Line
+	8200 4100 8200 4700
+Wire Wire Line
+	7300 5550 7400 5550
+Wire Wire Line
+	7300 4900 7300 5550
+Wire Wire Line
+	9150 4250 10400 4250
+Wire Wire Line
+	9150 4900 9150 5550
+Wire Wire Line
+	7050 1600 7250 1600
+Wire Wire Line
+	7200 4050 7400 4050
+Wire Wire Line
+	7200 4700 7200 5350
+Wire Wire Line
+	4050 4700 4050 5350
+Wire Wire Line
+	4050 4100 4050 4700
+Wire Wire Line
+	4950 5550 4850 5550
+Wire Wire Line
+	4950 4900 4950 5550
+Wire Wire Line
+	3100 4250 1850 4250
+Wire Wire Line
+	3100 4900 3100 5550
+Wire Wire Line
+	5050 4050 6450 4050
+Wire Wire Line
+	5050 4700 5050 5350
+Wire Wire Line
+	7350 3300 7350 3500
+Wire Wire Line
+	3850 1850 3850 2500
+Wire Wire Line
+	3850 1250 3850 1850
+Wire Wire Line
+	4750 2700 6150 2700
+Wire Wire Line
+	4750 2050 4750 2700
+Wire Wire Line
+	2900 1400 1650 1400
+Wire Wire Line
+	2900 2050 2900 2700
+Wire Wire Line
+	4850 1200 6100 1200
+Wire Wire Line
+	4850 1850 4850 2500
+Wire Wire Line
+	6450 4050 7200 4050
+Wire Wire Line
+	6450 1600 7050 1600
+Wire Wire Line
+	7350 3200 7350 3300
+$EndSCHEMATC

@@ -1,0 +1,283 @@
+Cmp-Mod V01 Created by PcbNew   date = 15/01/2018 10:46:44
+
+BeginCmp
+TimeStamp = 5A58D757
+Path = /5A5757B7
+Reference = R2;
+ValeurCmp = 10;
+IdModule  = Resistors_ThroughHole:R_Axial_Power_L50.0mm_W9.0mm_P60.96mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D70B
+Path = /5A575BDF
+Reference = P1;
+ValeurCmp = LED4;
+IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D713
+Path = /5A5757B1
+Reference = P2;
+ValeurCmp = LED3;
+IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D71B
+Path = /5A575BF1
+Reference = P3;
+ValeurCmp = LCR4;
+IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D723
+Path = /5A5757C3
+Reference = P4;
+ValeurCmp = LCR3;
+IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D72B
+Path = /5A43A6B6
+Reference = P5;
+ValeurCmp = blanking;
+IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D733
+Path = /5A574D83
+Reference = P6;
+ValeurCmp = LCR2;
+IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D73B
+Path = /5A54BE97
+Reference = P7;
+ValeurCmp = LCR1;
+IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D743
+Path = /5A574D71
+Reference = P8;
+ValeurCmp = LED2;
+IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D74B
+Path = /5A439781
+Reference = P9;
+ValeurCmp = LED1;
+IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D751
+Path = /5A575BE5
+Reference = R1;
+ValeurCmp = 10;
+IdModule  = Resistors_ThroughHole:R_Axial_Power_L50.0mm_W9.0mm_P60.96mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D75D
+Path = /5A43A69A
+Reference = R3;
+ValeurCmp = 270;
+IdModule  = Resistors_ThroughHole:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D763
+Path = /5A574D77
+Reference = R4;
+ValeurCmp = 10;
+IdModule  = Resistors_ThroughHole:R_Axial_Power_L50.0mm_W9.0mm_P60.96mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D769
+Path = /5A54BBD2
+Reference = R5;
+ValeurCmp = 10;
+IdModule  = Resistors_ThroughHole:R_Axial_Power_L50.0mm_W9.0mm_P60.96mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D78D
+Path = /5A575BCD
+Reference = U1;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D795
+Path = /5A575BD3
+Reference = U2;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D79D
+Path = /5A575BD9
+Reference = U3;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D7A5
+Path = /5A57579F
+Reference = U4;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D7AD
+Path = /5A5757A5
+Reference = U5;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D7B5
+Path = /5A5757AB
+Reference = U6;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D7BD
+Path = /5A574D5F
+Reference = U7;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D7C5
+Path = /5A574D65
+Reference = U8;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D7CD
+Path = /5A574D6B
+Reference = U9;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D7D5
+Path = /5A43A6A1
+Reference = U10;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D7DD
+Path = /5A43A6A8
+Reference = U11;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D7E5
+Path = /5A43A6AF
+Reference = U12;
+ValeurCmp = TLP291;
+IdModule  = Housings_SSOP:SOP-4_3.8x4.1mm_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5900D5
+Path = 
+Reference = REF***;
+ValeurCmp = OSHW-Symbol_6.7x6mm_SilkScreen;
+IdModule  = Symbols:OSHW-Symbol_6.7x6mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A590127
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A590160
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A59018A
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_3.2mm_M3;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A5902D9
+Path = /5A590796
+Reference = R6;
+ValeurCmp = 270;
+IdModule  = Resistors_ThroughHole:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D777
+Path = /5A5757BD
+Reference = RV2;
+ValeurCmp = 500;
+IdModule  = Potentiometers:Potentiometer_Alps_RK097_Single_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D770
+Path = /5A575BEB
+Reference = RV1;
+ValeurCmp = 500;
+IdModule  = Potentiometers:Potentiometer_Alps_RK097_Single_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D77E
+Path = /5A574D7D
+Reference = RV3;
+ValeurCmp = 500;
+IdModule  = Potentiometers:Potentiometer_Alps_RK097_Single_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A58D785
+Path = /5A54BCFC
+Reference = RV4;
+ValeurCmp = 500;
+IdModule  = Potentiometers:Potentiometer_Alps_RK097_Single_Vertical;
+EndCmp
+
+EndListe
