@@ -1,20 +1,4 @@
 References,Qty,Description,Manufacturer,MPN,Manufacturer_1,MPN_2,Manufacturer_3,MPN_4,Manufacturer_5,MPN_6,Manufacturer_7,MPN_8,Digikey,Mouser,RS,Newark,Farnell
-Q2,1,P-Channel MOSFET,Fairchild,FDS6575,,,,,,,,,,,671-0570,,
-Q1,1,N-Channel mosfet,Vishay,SI4840BDY-T1-GE3,,,,,,,,,,,710-4736,,
-R1,1,1.5kohm,TE Connectivity,LR1F1K5,,,,,,,,,,,148-540,,
-R2,1,0.22ohm,Vishay,RWM0410R220JR15E1 ,,,,,,,,,,,485-1414,,
-R3,1,8.2kohm,TE Connectivity,LR1F8K2,,,,,,,,,,,148-714,,
-R4;R5,2,Resistor 220  ohm 250mW through-hole,Yageo,MFR-25FBF52-220R,TE Connectivity,CBT25J220R,TE Connectivity,CFR16J220R,Ohmite,OD221JE,Stackpole Electronics,CF14JT220R,CF14JT220RCT-ND,279CBT25J220R,8066376,21R0186,1265068
-R6,1,Resistor 1k 250mW through-hole,Multicomp,MF12 1K,Yageo,MFR-25FBF52-1K,RS Pro,7077666,,,,,1.00KXBK-ND,603MFR25FBF521K,7077666,38K5400,9342400
-R7,1,Resistor 20W TO-220,Bourns,PWR220T-20-R500F,,,,,,,,,PWR220T-20-R500F-ND,652PWR220T20R500F,7962508,55R1098,2328267
-J1;J2,2,Terminal block 5mm,RS Pro,494-8956,TE Connectivity,282836-2,,,,,,,,,494-8956,,
-J3,1,BNC connector,TE,1-1337542-0,,,,,,,,,,,512-1203,,
-RV1,1,5kohm,Bourns,3362P-1-502LF,,,,,,,,,,,522-0978,,
-RV2,1,Potentiometer 25Ohms 5W,CTS,026TB32R250B1A1,,,,,,,,,,,179-0668,,
-D1,1,1N5819  diode,ON,1N5819G,,,,,,,,,,,774-3347,,
-C1,,470pF capacitor,Vishay,562R10TST47,,,,,,,,,,,831-3023,,
-C2;C4,,220µF capacitor (line filter),Vishay,MAL214650221E3,,,,,,,,,,,684-1725,,
-C3;C5,,100nF capacitor (line filter),Wima,MKS2D031001A00KI00,,,,,,,,,,,108-2700,,
-L1,,120µH inductor,Panasonic,ELC11D121F ,,,,,,,,,,,675-5400,,
-U1,,MC34063AP step up/down regulator,texas instruments,MC34063AP ,,,,,,,,,,,661-8430,,
-U1-1,,DIP-8 socket,Preci-dip,110-87-308-41-001101,,,,,,,,,,,702-0654,,
+P1-8,1,BNC connector,TE,1-1337542-0,,,,,,,,,,,512-1203,,
+R3;R6,1,Resistor 1k 250mW through-hole,Multicomp,MF12 1K,Yageo,MFR-25FBF52-1K,RS Pro,7077666,,,,,1.00KXBK-ND,603MFR25FBF521K,7077666,38K5400,9342400
+RV1-4,1,Potentiometer 25Ohms 5W,CTS,026TB32R250B1A1,,,,,,,,,,,179-0668,,
