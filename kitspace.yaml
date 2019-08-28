@@ -17,3 +17,9 @@ multi:
         site: https://www.biorxiv.org/content/10.1101/649566v1
         bom: boards/mosfet_circuit_plus_voltage_regulator/1-click-bom.csv
         gerbers: boards/mosfet_circuit_plus_voltage_regulator/gerbers
+    boards/ssr_board:
+        summary:  Board with solid state relays to open/close an led power line.
+        color: green
+        site: https://www.biorxiv.org/content/10.1101/649566v1
+        bom: boards/ssr_board/1-click-bom.csv
+        gerbers: boards/ssr_board/gerbers
