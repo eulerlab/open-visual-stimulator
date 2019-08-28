@@ -14,10 +14,10 @@
  
 - Companies providing "board on demand" service include:
 
-   - JLCPCB
-   - PCBWAY
-   - OSH PARK
-   - AISLER
+   - [JLCPCB](https://jlcpcb.com/)
+   - [PCBWAY](https://www.pcbway.com)
+   - [OSH PARK](https://oshpark.com/)
+   - [AISLER](https://aisler.net/)
 
 ### Components to populate the boards:
 
