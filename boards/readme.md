@@ -1,19 +1,18 @@
 ## LED driver/blanking boards
 
-`lcr_add-on` - KiCad files for the board ("logic board") that combines the signals from the LCr and the blanking signals. This board has a jumper option to avoid using blanking signal altogether, which may be useful when e.g. using LCrs in MEA setups.
+`lcr_add-on` - KiCad and Gerber files for the "logic board". This board combines the signals from the LCr with an external "blanking signal" to independently control up to three 3 LEDs per lightcrafter device. This board has a jumper option to disable the blanking signal altogether, which may be useful when e.g. using LCrs in MEA setups.
 
-`mosfet_circuit` - KiCad files for the board ("LED driver board") that uses the signal from the Lcr_addon board ("logic board") to turn LEDs on and off. Users need to connect this board to an appropriate power suply (i.e. a power supply the is outputing the LED forward voltage).
+`mosfet_circuit` - KiCad and Gerber files for "LED driver board". This board uses the 5V logic signal from `Lcr_addon` ("logic board") to turn LEDs on and off. Users need to connect this board to an appropriate power suply (i.e. a power supply the is outputing the LED forward voltage).
 
 ### General information about the printed circuit boards:
 
-This project contains two boards. One is an add on to the lightcrafter. It mainly combines signals from the lightcrafter with an external "blanking signal" (for details see manuscript), to independently control 3 LEDs per lightcrafter device. The other board takes an logic 5V signal and uses it to turn the power to LEDs on and off.
+- For details on the design and function of the boards, see [preprint](https://www.biorxiv.org/content/10.1101/649566v1)). 
 
-Both boards:
+- The boards were designed using [KiCad 5](http://www.kicad-pcb.org/) and can be ordered using the `Gerber.zip` file located in each board's `gerber` subfolder. 
 
-- have been created using [KiCad 5](http://www.kicad-pcb.org/)
-- Can be ordered using the the Gerber.zip file present on each board subfolder.
- - Several on "board on demand" companies are available, and the process of ordering is pretty much the same. A more detailed tutorial on how to do so can be found [here](https://www.youtube.com/watch?v=ENmDnoKs2hM). For simply using the already available compressed files, go to minute seven of the video.
- - Companies providing this service include:
+- Several on "board on demand" companies are available, and the process of ordering is pretty much the same. A more detailed tutorial on how to do so can be found [here](https://www.youtube.com/watch?v=ENmDnoKs2hM) (for simply using the already available compressed files, go to minute 7 of the video).
+ 
+- Companies providing "board on demand" service include:
 
    - JLCPCB
    - PCBWAY
@@ -22,7 +21,7 @@ Both boards:
 
 ### Components to populate the boards:
 
-Components are listed on each board folder on a "comma separated value" file named "1-click-bom.csv" Listed in the file are the quantity, identification and supplier of each component. They can also be ordered using [KitSpace](kitspace.org):
+Components are listed on each board folder on a "comma separated value" file named `1-click-bom.csv`. Listed in the file are the quantity, identification and supplier of each component. They can also be ordered using [KitSpace](kitspace.org):
 
  - [LCr_addon on kitspace](https://kitspace.org/boards/github.com/eulerlab/open-visual-stimulator/boards/lcr_add-on/)
  - [mosfet circuit on kitspace](https://kitspace.org/boards/github.com/eulerlab/open-visual-stimulator/boards/mosfet_circuit/)
