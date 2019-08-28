@@ -4,7 +4,7 @@
 
 `mosfet_circuit` - KiCad files for the board ("LED driver board") that uses the signal from the Lcr_addon board ("logic board") to turn LEDs on and off. Users need to connect this board to an appropriate power suply (i.e. a power supply the is outputing the LED forward voltage).
 
-### information about the printed circuit boards:
+### General information about the printed circuit boards:
 
 This project contains two boards. One is an add on to the lightcrafter. It mainly combines signals from the lightcrafter with an external "blanking signal" (for details see manuscript), to independently control 3 LEDs per lightcrafter device. The other board takes an logic 5V signal and uses it to turn the power to LEDs on and off.
 
