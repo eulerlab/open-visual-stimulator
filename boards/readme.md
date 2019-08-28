@@ -10,7 +10,7 @@ This project contains two boards. One is an add on to the lightcrafter. It mainl
 
 Both boards:
 
-- have been created using KiCad 5
+- have been created using [KiCad 5](http://www.kicad-pcb.org/)
 - Can be ordered using the the Gerber.zip file present on each board subfolder.
  - Several on "board on demand" companies are available, and the process of ordering is pretty much the same. A more detailed tutorial on how to do so can be found [here](https://www.youtube.com/watch?v=ENmDnoKs2hM). For simply using the already available compressed files, go to minute seven of the video.
  - Companies providing this service include:
