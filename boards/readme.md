@@ -6,6 +6,8 @@
 
 `mosfet_circuit_plus_voltage_regulator` - KiCad and Gerber files for "LED driver board". This board uses the 5V logic signal from Lcr_addon ("logic board") to turn LEDs on and off. This board has a stepdown voltage regulator built-in. It is capable of 20V and 1.5A max output with the components present in its "1-click-bom.csv" file. (see "Components to populate the boards" for more details).
 
+`ssr_board` - This board controls the LED power lines from the Lightcrafter by opening and closing them using solid state relays. The relays are controlled by a 5V signal (in this case the inverted blanking signal).
+
 
 
 ### General information about the printed circuit boards:
