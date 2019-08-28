@@ -1,0 +1,6 @@
+References,Qty,Description,Manufacturer,MPN,Manufacturer_1,MPN_2,Manufacturer_3,MPN_4,Manufacturer_5,MPN_6,Manufacturer_7,MPN_8,Digikey,Mouser,RS,Newark,Farnell
+P1-9,9,BNC connector,TE,1-1337542-0,,,,,,,,,,,512-1203,,
+R3;R6,2,Resistor 1k 250mW through-hole,Multicomp,MF12 1K,Yageo,MFR-25FBF52-1K,RS Pro,7077666,,,,,1.00KXBK-ND,603MFR25FBF521K,7077666,38K5400,9342400
+RV1-4,4,Potentiometer 25Ohms 5W,CTS,026TB32R250B1A1,,,,,,,,,,,179-0668,,
+U1-12,12,Optocoupler 250mA max current,Panasonic,AQY221R2S,,,,,,,,,,,699-6610,,
+R1;R2;R4;R5,4,2 Ohm 5W resistor,Vishay,RS0052R000FE12,,,,,,,,,,,850-6613,,

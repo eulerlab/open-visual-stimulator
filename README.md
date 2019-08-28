@@ -8,7 +8,7 @@ Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Eul
 
 ### Ordering of PCB boards
 
-If you are interested in ordering boards and components, please find more information in the boards folder [readme.md file](https://github.com/eulerlab/open-visual-stimulator/blob/master/boards/readme.md). 
+If you are interested in ordering boards and components, please find more information in the boards folder [readme.md file](https://github.com/eulerlab/open-visual-stimulator/blob/master/boards/readme.md).
 
 ## Repository structure
 
@@ -22,6 +22,8 @@ If you are interested in ordering boards and components, please find more inform
 |   |   └───gerber                            - Gerber files for circuit board
 |   ├───mosfet_circuit_plus_voltage_regulator - KiCad files for board that combines voltage regulator and LED switching
 |   |   ├───connector_coaxial.pretty          - BNC connector description (KiCad)
+|   |   └───gerbers                           - Gerber files for circuit board
+|   ├───ssr_board                             - KiCad files for solid state relay board
 |   |   └───gerbers                           - Gerber files for circuit board
 |   └───arduino_code_for_testing_circuits     - Arduino code to emulate blanking and LCr signals
 |       └───lcr_emulator
