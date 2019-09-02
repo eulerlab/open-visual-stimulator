@@ -29,12 +29,12 @@ If you are interested in ordering boards and components, please find more inform
 |       └───lcr_emulator
 |
 ├───printed_parts                             OpenSCAD and STL files for 3D printed parts
-|   |                                         
+|   |
 │   ├───Fish_cinema                           - Fish tank used in the fish setup
 │   ├───SSR_board                             - Designs for plate and cover of the SSR board
 │   └───optical_components                    - optomechanical parts for LED assemblies
 |           ├───fish_stimulator
-|           └───mouse_stimulator  
+|           └───mouse_stimulator
 ├───calibration_mouse                         Calibration of dichroic mouse stimulator
 │   ├───data                                  - recorded calibration data (custom LEDs and TFT monitor)
 │   ├───datasheets                            - spectrometer data sheet, etc.
@@ -45,10 +45,9 @@ If you are interested in ordering boards and components, please find more inform
 |   └───spectrometer-calibration-files        - USB2+ calibration data
 |
 └───calibration_zebrafish                     Calibration of tetrachromatic zebrafish stimulator
-    ├───data                                  - recorded calibration data
-    |    ├───powermeter_recording
-    |    └───spectrometer_recording
-    |        └───correction_curves
-    ├───datasheets                            - spectrometer data sheet, etc.
-    └───led_spectra_after_teflon              - LED spectra measured behind the teflon screen
+    ├───data                                  - recorded calibration data (custom LEDs)
+    ├───datasheets                            - spectrometer & powermeter data sheet.
+    ├───light-sources                         - LED spectra measured behind the teflon screen
+    ├───opsins                                - zebrafish opsin sensitivity curves
+    └───scripts                               - Python scripts used in iPython notebooks
 ```
