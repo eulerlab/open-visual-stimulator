@@ -1,7 +1,7 @@
 ## 3D printed parts
 
-OpenSCAD and STL files for various optomechanical components.
+OpenSCAD (`.scad`) and STL (`.stl`) files for various optomechanical components.
 
-- Folder "SSR_board" files (.scad and .stl) contain the designs for parts to hold the board.
-- Folder "Fish_cinema" files (.scad and .stl) contain the designs for the fish tank that is place under the objective in the fish stimulator.
-- Folder "Optical components" contains two folders, one with designs used on the mouse stimulator and one with designs used in the LED assembly of the fish stimulator.
+- `SSR_board` contains the designs for parts to hold the board.
+- `Fish_cinema` contains the designs for the fish tank that is placed under the objective in the fish stimulator.
+- `Optical components` contains two folders, one with designs used for the mouse stimulator and one with designs used in the LED assembly of the fish stimulator.
