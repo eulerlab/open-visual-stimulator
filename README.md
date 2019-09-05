@@ -8,7 +8,7 @@ Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Eul
 
 ### Ordering of PCB boards
 
-If you are interested in ordering boards and components, please find more information in the boards folder [readme.md file](https://github.com/eulerlab/open-visual-stimulator/blob/master/boards/readme.md).
+If you are interested in ordering boards and components, please find more information in the boards folder [readme](https://github.com/eulerlab/open-visual-stimulator/blob/master/boards/readme.md) file.
 
 ## Repository structure
 
