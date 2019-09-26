@@ -7,6 +7,9 @@ Please find more details on the stimulator in the following publication:
 Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Bartel P, Qiu Y, Szatko K, Baden T, Euler T# (2019). An arbitrary-spectrum spatial visual stimulator for vision research. eLife 2019;8:e48779, [10.7554/eLife.48779](https://elifesciences.org/articles/48779).
 
 
+
+
+
 ### Ordering of PCB boards
 
 If you are interested in ordering boards and components, please find more information in the boards folder [readme](https://github.com/eulerlab/open-visual-stimulator/blob/master/boards/readme.md) file.
