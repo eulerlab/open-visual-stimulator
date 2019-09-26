@@ -2,9 +2,10 @@
 
 This repository holds the resources for a flexible, spatial visual stimulator with up to 6 chromatic channels. It combines commercial digital light processing (DLP) devices with open hard- and software components that can be easily adapted to the experimentalist’s specific needs. With this we intend to start a community effort of sharing and further developing a common stimulator design.
 
-Please find more details on the stimulator in the following preprint:
+Please find more details on the stimulator in the following publication:
 
-Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Qiu Y, Szatko K, Baden T, Euler T# (2019). Preprint: An arbitrary-spectrum spatial visual stimulator for vision research. bioRxiv [10.1101/649566](https://www.biorxiv.org/content/10.1101/649566v1)
+Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Bartel P, Qiu Y, Szatko K, Baden T, Euler T# (2019). An arbitrary-spectrum spatial visual stimulator for vision research. eLife 2019;8:e48779, [10.7554/eLife.48779](https://elifesciences.org/articles/48779).
+
 
 ### Ordering of PCB boards
 
