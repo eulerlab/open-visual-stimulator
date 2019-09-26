@@ -6,7 +6,7 @@ Please find more details on the stimulator in the following publication:
 
 _Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Bartel P, Qiu Y, Szatko K, Baden T, Euler T# (2019). An arbitrary-spectrum spatial visual stimulator for vision research. eLife 2019;8:e48779, [10.7554/eLife.48779](https://elifesciences.org/articles/48779)._
 
-## Pictures
+### Pictures
 
 ![](https://github.com/eulerlab/open-visual-stimulator/blob/master/pics/Setup1_zf_v2.png)
 _Rendering of the 4-channel RGBUV zebrafish stimulator (by MJY Zimmermann)._
