@@ -9,7 +9,10 @@ _Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Bartel P, Qiu Y, Szatko K, B
 ### Pictures
 
 ![](https://github.com/eulerlab/open-visual-stimulator/blob/master/pics/Setup1_zf_v2.png)
-_Rendering of the 4-channel RGBUV zebrafish stimulator (by MJY Zimmermann)._
+_Rendering of the 4-channel R-G-B-UV zebrafish stimulator (by MJY Zimmermann)._
+
+![](https://github.com/eulerlab/open-visual-stimulator/blob/master/pics/TTC_mouse_v1.png)
+_Rendering of through-the-conderser (TTC) G-UV mouse light stimulator (by MJY Zimmermann)._ 
 
 
 ### Ordering of PCB boards
