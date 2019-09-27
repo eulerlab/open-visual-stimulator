@@ -22,6 +22,7 @@ If you are interested in ordering boards and components, please find more inform
 ## Repository structure
 
 ```
+├───pics                                      Pictures   
 ├───boards                                    LED driver/blanking boards
 │   ├───lcr_add-on                            - KiCad files for board that combines LCr and 
 |   |   |                                       blanking signals
