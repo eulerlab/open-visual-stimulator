@@ -23,13 +23,15 @@ If you are interested in ordering boards and components, please find more inform
 
 ```
 ├───boards                                    LED driver/blanking boards
-│   ├───lcr_add-on                            - KiCad files for board that combines LCr and blanking signals
+│   ├───lcr_add-on                            - KiCad files for board that combines LCr and 
+|   |   |                                       blanking signals
 |   |   ├───connector_coaxial.pretty          - BNC connector description (KiCad)
 |   |   └───gerber                            - Gerber files for circuit board
 │   ├───mosfet_circuit                        - KiCad files for board that switches switch LEDs
 |   |   ├───connector_coaxial.pretty          - BNC connector description (KiCad)
 |   |   └───gerber                            - Gerber files for circuit board
-|   ├───mosfet_circuit_plus_voltage_regulator - KiCad files for board that combines voltage regulator and LED switching
+|   ├───mosfet_circuit_plus_voltage_regulator - KiCad files for board that combines voltage 
+|   |   |                                       regulator and LED switching
 |   |   ├───connector_coaxial.pretty          - BNC connector description (KiCad)
 |   |   └───gerbers                           - Gerber files for circuit board
 |   ├───ssr_board                             - KiCad files for solid state relay board
