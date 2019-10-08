@@ -6,13 +6,18 @@ Please find more details on the stimulator in the following publication:
 
 _Franke K*, Maia Chagas A*, Zhao Z, Zimmermann MJY, Bartel P, Qiu Y, Szatko K, Baden T, Euler T# (2019). An arbitrary-spectrum spatial visual stimulator for vision research. eLife 2019;8:e48779, [10.7554/eLife.48779](https://elifesciences.org/articles/48779)._
 
+For the newest changes and additions, see [release notes](https://github.com/eulerlab/open-visual-stimulator/blob/master/release_notes.md)
+
 ### Pictures
 
-![](https://github.com/eulerlab/open-visual-stimulator/blob/master/pics/Setup1_zf_v2.png)
+![](https://github.com/eulerlab/open-visual-stimulator/blob/master/pics/Zebrafish_Cinema.png)
 _Rendering of the 4-channel R-G-B-UV zebrafish stimulator (by MJY Zimmermann)._
 
-![](https://github.com/eulerlab/open-visual-stimulator/blob/master/pics/TTC_mouse_v1.png)
-_Rendering of through-the-conderser (TTC) G-UV mouse light stimulator (by MJY Zimmermann)._ 
+![](https://github.com/eulerlab/open-visual-stimulator/blob/master/pics/Mouse_TTC.png)
+_Rendering of through-the-conderser (TTC) G-UV mouse light stimulator (by MJY Zimmermann)._
+
+![](https://github.com/eulerlab/open-visual-stimulator/blob/master/pics/Mouse_TTO.png)
+_Rendering of through-the-objective (TTO) G-UV mouse light stimulator (by MJY Zimmermann)._ 
 
 
 ### Ordering of PCB boards
@@ -22,16 +27,16 @@ If you are interested in ordering boards and components, please find more inform
 ## Repository structure
 
 ```
-├───pics                                      Pictures   
+├───pics                                      Pictures
 ├───boards                                    LED driver/blanking boards
-│   ├───lcr_add-on                            - KiCad files for board that combines LCr and 
+│   ├───lcr_add-on                            - KiCad files for board that combines LCr and
 |   |   |                                       blanking signals
 |   |   ├───connector_coaxial.pretty          - BNC connector description (KiCad)
 |   |   └───gerber                            - Gerber files for circuit board
 │   ├───mosfet_circuit                        - KiCad files for board that switches switch LEDs
 |   |   ├───connector_coaxial.pretty          - BNC connector description (KiCad)
 |   |   └───gerber                            - Gerber files for circuit board
-|   ├───mosfet_circuit_plus_voltage_regulator - KiCad files for board that combines voltage 
+|   ├───mosfet_circuit_plus_voltage_regulator - KiCad files for board that combines voltage
 |   |   |                                       regulator and LED switching
 |   |   ├───connector_coaxial.pretty          - BNC connector description (KiCad)
 |   |   └───gerbers                           - Gerber files for circuit board
@@ -46,7 +51,8 @@ If you are interested in ordering boards and components, please find more inform
 │   ├───SSR_board                             - Designs for plate and cover of the SSR board
 │   └───optical_components                    - optomechanical parts for LED assemblies
 |           ├───fish_stimulator
-|           └───mouse_stimulator
+|           ├───cmouse_stimulator
+|           └───lcr_addons
 ├───calibration_mouse                         Calibration of dichroic mouse stimulator
 │   ├───data                                  - recorded calibration data (custom LEDs and TFT monitor)
 │   ├───datasheets                            - spectrometer data sheet, etc.
