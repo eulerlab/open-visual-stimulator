@@ -32,23 +32,20 @@ documentation-language: English-UK
 
 # Properties
 
-title: FlyPi - A 3D-printable open-source platform for fluorescence microscopy, optogenetics, and accurate temperature control during behaviour of zebrafish, Drosophila, and Caenorhabditis elegans                             # required | text | A title to identify the thing
+title: Open Visual Stimulator                             # required | text | A title to identify the thing
 
 description: |
-    "Flypi" is a 3D printable all in one biology lab that can be used for state of the art experiments in neurosciences as well as for human intestine parasites detection                          # required | paragraph
+    The open visual stimulator is a projector system that can take up to six different leds with any chosen wavelength and project images, videos, patterns.  # required | paragraph
 
 intended-use: |                            # recommended | Paragraph
-    Flypi was developed for researchers to perform experiments using low cost tools as well as educators to train students and do outreach activities with the general public
+    This system was developed for neuroscience research and to be used for experiments in vision.
 
 keywords:                                  # At least one keyword is recommended | text array
   - neuroscience
   - open science
   - microscopy
-  - optogenetics
-  - fluorescence
-  - behavioural tracking
-  - raspberry pi
-  - arduino
+  - Visual neurosciences
+  - Behaviour
 
 project-link: https://github.com/amchagas/flypi       # At least project-link or documentation-home is required, otherwise recommended | absolute path URL
 
@@ -70,7 +67,7 @@ contact:
 
 #image: [value]                             # recommended | absolute or relative path
 
-version: 2.0                           # text
+version: 1.0                           # text
 
 development-stage: [value]                 # text
 
@@ -116,7 +113,7 @@ licensor:
 
 # Documentation
 
-documentation-home: https://github.com/amchagas/Flypi/               # At least one of the project-link or documentation-home fields is required | absolute path
+documentation-home: https://github.com/eulerlab/open-visual-stimulator              # At least one of the project-link or documentation-home fields is required | absolute path
 
 #archive-download: [value]                 # Absolute or relative path
 
@@ -128,13 +125,13 @@ documentation-home: https://github.com/amchagas/Flypi/               # At least 
 #  - path: [value]                         # Absolute or relative path
 #    title: [value]                        # text
 
-bom: https://github.com/amchagas/Flypi/blob/master/PCB/flypi_pcb_kicad/1-click-bom.csv        # recommended | absolute or relative path | Direct the maker to the Bill of Materials
+bom: https://elifesciences.org/articles/48779#table2        # recommended | absolute or relative path | Direct the maker to the Bill of Materials
 
 #tool-list: [value]                        # recommended | absolute or relative path | Direct the maker to a list of tools required to make the thing
 
-making-instructions:                      # recommended
-  - path: https://github.com/amchagas/Flypi/blob/master/User%20and%20Assembly%20Manual_revised.pdf                        # Absolute or relative path
-    title: User and assembly manual revised                        # text
+#making-instructions:                      # recommended
+#  - path: https://github.com/amchagas/Flypi/blob/master/User%20and%20Assembly%20Manual_revised.pdf                        # Absolute or relative path
+#    title: User and assembly manual revised                        # text
 
 #manufacturing-files:                      # recommended where applicable
 #  - path: [value]                         # Absolute or relative path
