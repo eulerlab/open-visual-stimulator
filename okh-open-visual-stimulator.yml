@@ -47,7 +47,7 @@ keywords:                                  # At least one keyword is recommended
   - Visual neurosciences
   - Behaviour
 
-project-link: https://github.com/amchagas/flypi       # At least project-link or documentation-home is required, otherwise recommended | absolute path URL
+project-link: https://github.com/eulerlab/open-visual-stimulator       # At least project-link or documentation-home is required, otherwise recommended | absolute path URL
 
 #health-safety-notice: |                    # paragraph
 #  [value]
