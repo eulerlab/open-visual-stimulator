@@ -1,5 +1,7 @@
 ## LED driver/blanking boards
 
+LED blanking circuits were inspired by earlier devices designed and built by R. Berndt (HIH Tübingen).
+
 `lcr_add-on` - KiCad and Gerber files for the "logic board". This board combines the signals from the LCr with an external "blanking signal" to independently control up to three 3 LEDs per lightcrafter device. This board has a jumper option to disable the blanking signal altogether, which may be useful when e.g. using LCrs in MEA setups.
 
 `mosfet_circuit` - KiCad and Gerber files for "LED driver board". This board uses the 5V logic signal from Lcr_addon ("logic board") to turn LEDs on and off. Users need to connect this board to an appropriate power suply (i.e. a power supply the is outputing the LED forward voltage).
@@ -7,7 +9,6 @@
 `mosfet_circuit_plus_voltage_regulator` - KiCad and Gerber files for "LED driver board". This board uses the 5V logic signal from Lcr_addon ("logic board") to turn LEDs on and off. This board has a stepdown voltage regulator built-in. It is capable of 20V and 1.5A max output with the components present in its "1-click-bom.csv" file. (see "Components to populate the boards" for more details).
 
 `ssr_board` - This board controls the LED power lines from the Lightcrafter by opening and closing them using solid state relays. The relays are controlled by a 5V signal (in this case the inverted blanking signal).
-
 
 
 ### General information about the printed circuit boards:
@@ -24,6 +25,7 @@
    - [PCBWAY](https://www.pcbway.com)
    - [OSH PARK](https://oshpark.com/)
    - [AISLER](https://aisler.net/)
+
 
 ### Components to populate the boards:
 
