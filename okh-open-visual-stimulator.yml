@@ -65,7 +65,7 @@ contact:
 #    affiliation: [value]                   # text
 #    email: [value]                         # email address
 
-#image: [value]                             # recommended | absolute or relative path
+image: https://raw.githubusercontent.com/eulerlab/open-visual-stimulator/master/pics/Zebrafish_Cinema.png                           # recommended | absolute or relative path
 
 version: 1.0                           # text
 
