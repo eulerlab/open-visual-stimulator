@@ -5,11 +5,11 @@ D1;,1,Diode Schottky 5A DO-201AD,Vishay,1N5822-E3/73,Zetex,SB5100-T,,,,,,,1N5822
 C2;,1,CAP ALUM 220UF 20% 25V RADIAL,Panasonic, EEU-FM1E221 ,Panasonic,ECA-1CM221B,Panasonic,ECE-A0GKS221,Panasonic,EEU-EB1A221S,,,P12383-ND,667ECA1CM221B,7472036,70K9673,9451099
 C1;,1,680µF Capacitor,Rubycon,16ZL680MEFC10X16,Panasonic,EEU-FC1A681,,,,,,,1189-3978-ND,667EEUFC1A681,7037258,31M6417,1144691
 R1;,1,Resistor 1k 250mW through-hole,Multicomp,MF12 1K,Yageo,MFR-25FBF52-1K,RS Pro,7077666,,,,,1.00KXBK-ND,603MFR25FBF521K,7077666,38K5400,9342400
-J2;,1,Lcr connector,JST,B14B-PHDSS (LF)(SN),,,,,,,,,,,918-2738,,
-J4;J5;J6;J7;,4,BNC connector,TE,1-1337542-0,,,,,,,,,,,512-1203,,
-J8;,1,jumper connector,SamTec,SSW-103-01-G-S ,,,,,,,,,,,765-5610,,
-U1;U2;U3:U5;U6:U7,6,AND gate,NXP,'74AHC1G08GW,125',,,,,,,,,,144-5258,510-087,
-U8;,1,Signal inverter (NOT gate),Toshiba,TC7SH14F(F),,,,,,,,,,,540-6885,,
+J2;,1,Lcr connector,JST,B14B-PHDSS (LF)(SN),,,,,,,,,455-1764-ND ,,918-2738,,
+J4;J5;J6;J7;,4,BNC connector,TE,1-1337542-0,,,,,,,,,A97552-ND ,,512-1203,,
+J8;,1,jumper connector,SamTec,SSW-103-01-G-S ,,,,,,,,,SAM1209-03-ND ,,765-5610,,
+U1;U2;U3:U5;U6:U7,6,AND gate,NXP,'74AHC1G08GW,125',,,,,,,,,1727-3148-1-ND ,144-5258,510-087,,
+U8;,1,Signal inverter (NOT gate),Toshiba,TC7SH14F(F),Texas Instruments,74AHC1G14SE-7 ,,,,,,,74AHC1G14SE-7DICT-ND ,,540-6885,,
 ,,,,,,,,,,,,,,,,,
-Lcr 1,2,'Female plug 2X14 (1 to Lcr one to Board)',JST,PHDR-14VS ,,,,,,,,,,,917-4692,917-4692,
+Lcr 1,2,Female plug 2X14 (1 to Lcr one to Board),JST,PHDR-14VS ,,,,,,,,,455-1172-ND ,,917-4692,917-4692,
 Cable,14,JUMPER SPHD-001T-P0.5 X2 10 ,JST,APAPA22K254 ,,,,,,,,,455-3357-ND ,,,,
