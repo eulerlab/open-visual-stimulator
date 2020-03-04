@@ -78,6 +78,7 @@ union(){
     
 }//difference
 }//plate 
+module plate1(){
 plate();
 for (i=[0:platex/4:platex/4]){
     echo(i);
@@ -109,6 +110,8 @@ rotate([0,90,0]){
 
 }//for
 
+}//plate1
+module plate2(){
 translate([0,-5,0]){
 mirror([0,90,0]){plate(extension=2);
     }
@@ -144,3 +147,7 @@ rotate([0,90,0]){
 }//for
 
 }
+}//plate 2
+
+plate1();
+plate2();
