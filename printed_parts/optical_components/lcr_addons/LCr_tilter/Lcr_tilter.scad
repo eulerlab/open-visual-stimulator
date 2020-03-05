@@ -8,18 +8,26 @@
  20200304
 
 */
-platex = 150;
-platey = 98;
+platex = 152;
+platey = 105;
 platez = 3;
-hole1yd = 10.75;
+
+hole1yd = 15.75;
 hole1xd = 5.45;
 
-hole1d = 6.14;
-hole2d= 3.88;  
+inter1yd = 70;
+inter1xd = 130;
+
+centerholesx = (platex-inter1xd)/2;
+centerholesy = (platey-inter1yd)/2+2;
+
+hole1d = 6.5;
+hole2d= 4;  
+
 tol = 0.1;
 //m4 nut
 nutd = 6.88;
-nuth = 3;
+nuth = 3.1;
 //m6 nut
 //nutd = 9.82;
 //nuth = 4.84;
@@ -36,11 +44,30 @@ module nut_pocket(){
         }//translate
     }//difference
 }
-
+module plate_holes(){
+    
+    cylinder(d=hole1d,h=platez+1);
+    
+    translate([0,inter1yd,0]){
+        cylinder(d=hole1d,h=platez+1);
+        }
+    
+    translate([inter1xd,inter1yd,0]){
+        cylinder(d=hole1d,h=platez+1);
+        }
+        
+    translate([inter1xd,0,0]){
+        cylinder(d=hole1d,h=platez+1);
+        }    
+        }
+    
+    
+    
 module plate(extension=1){
 difference(){
 union(){
 cube([platex,platey,platez]);
+    
     if (extension==1){
         translate([platex/2-(nutd+wall)/2-2.5,  platey-0.1,-nuth-0.5-platez/2]){
             nut_pocket();
@@ -53,21 +80,9 @@ cube([platex,platey,platez]);
         }//end if
     }//union
 union(){
-    translate([hole1xd+hole1d/2,hole1yd+hole1d/2,-0.5]){
-        cylinder(d=hole1d,h=platez+1);
-        }//translate
-
-    translate([platex-(hole1xd+hole1d/2),hole1yd+hole1d/2,-0.5]){
-        cylinder(d=hole1d,h=platez+1);
-        }//translate
-    
-    translate([platex-(hole1xd+hole1d/2),   platey-(hole1yd+hole1d/2),-0.5]){
-        cylinder(d=hole1d,h=platez+1);
-        }//translate
-
-    translate([(hole1xd+hole1d/2),platey-(  hole1yd+hole1d/2),-0.5]){
-        cylinder(d=hole1d,h=platez+1);
-        }//translate
+    translate([centerholesx,centerholesy,-0.1]){
+        plate_holes();
+    }//translate
     if (extension==1){        
     translate([platex/2,platey+hole2d,-10.5]){
         cylinder(d=hole2d,h=platez+11);
