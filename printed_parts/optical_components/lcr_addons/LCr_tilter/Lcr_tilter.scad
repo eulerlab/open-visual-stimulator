@@ -15,19 +15,19 @@ platez = 3;
 hole1yd = 15.75;
 hole1xd = 5.45;
 
-inter1yd = 70;
+inter1yd = 67.6;
 inter1xd = 130;
 
 centerholesx = (platex-inter1xd)/2;
 centerholesy = (platey-inter1yd)/2+2;
 
 hole1d = 6.5;
-hole2d= 4;  
+hole2d= 4.3;  
 
 tol = 0.1;
 //m4 nut
-nutd = 6.88;
-nuth = 3.1;
+nutd = 6.95;
+nuth = 3.2;
 //m6 nut
 //nutd = 9.82;
 //nuth = 4.84;
