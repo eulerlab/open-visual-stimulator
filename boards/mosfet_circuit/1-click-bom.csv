@@ -1,7 +1,7 @@
 References,Qty,Description,Manufacturer,MPN,Manufacturer_1,MPN_2,Manufacturer_3,MPN_4,Manufacturer_5,MPN_6,Manufacturer_7,MPN_8,Digikey,Mouser,RS,Newark,Farnell
 Q2,1,P-Channel MOSFET,Fairchild,FDS6575,,,,,,,,,FDS6575CT-ND ,  ,671-0570,,
 Q1,1,N-Channel mosfet,Vishay,SI4840BDY-T1-GE3,,,,,,,,,SI4840BDY-T1-E3CT-ND ,,710-4736,,
-'R1;R2''',2,Resistor 220  ohm 250mW through-hole,Yageo,MFR-25FBF52-220R,TE Connectivity,CBT25J220R,TE Connectivity,CFR16J220R,Ohmite,OD221JE,Stackpole Electronics,CF14JT220R,CF14JT220RCT-ND,279CBT25J220R,8066376,21R0186,1265068
+R1;R2,2,Resistor 220  ohm 250mW through-hole,Yageo,MFR-25FBF52-220R,TE Connectivity,CBT25J220R,TE Connectivity,CFR16J220R,Ohmite,OD221JE,Stackpole Electronics,CF14JT220R,CF14JT220RCT-ND,279CBT25J220R,8066376,21R0186,1265068
 R3,1,Resistor 1k 250mW through-hole,Multicomp,MF12 1K,Yageo,MFR-25FBF52-1K,RS Pro,7077666,,,,,1.00KXBK-ND,603MFR25FBF521K,7077666,38K5400,9342400
 R4;,1,Resistor 20W TO-220,Bourns,PWR220T-20-R500F,,,,,,,,,PWR220T-20-R500F-ND,652PWR220T20R500F,7962508,55R1098,2328267
 J1;J4,2,Terminal block 5mm,RS Pro,494-8906,TE Connectivity,282837-2 ,,,,,,,A113320-ND ,,494-8906,,
