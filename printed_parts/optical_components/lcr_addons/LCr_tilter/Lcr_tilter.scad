@@ -86,7 +86,7 @@ union(){
 cube([platex,platey,platez]);
     
     if (extension==1){
-        translate([platex/2-(nutd+wall)/2-2.5,  platey-0.1,-nuth-0.5-platez/2]){
+        translate([platex/2-(nutd+wall)/2-2.5,  platey-0.1,0]){
             nut_pocket();
             }//translate
         }//end if
@@ -104,7 +104,7 @@ union(){
         plate_holes();
     }//translate
     if (extension==1){        
-    translate([platex/2,platey+hole2dia,-10.5]){
+    translate([platex/2,platey+hole2dia,-2]){
         cylinder(d=hole2dia,h=platez+11);
         
         }//translate
