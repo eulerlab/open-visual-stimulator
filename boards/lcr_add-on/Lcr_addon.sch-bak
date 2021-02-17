@@ -251,7 +251,7 @@ U 1 1 601A2A22
 P 4250 3550
 F 0 "U1" H 4200 4153 60  0000 C CNN
 F 1 "SN74LS08N" H 4200 4047 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4450 3750 60  0001 L CNN
+F 2 "digikey-footprints:DIP-14_W3mm" H 4450 3750 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls08" H 4450 3850 60  0001 L CNN
 F 4 "296-1633-5-ND" H 4450 3950 60  0001 L CNN "Digi-Key_PN"
 F 5 "SN74LS08N" H 4450 4050 60  0001 L CNN "MPN"
@@ -285,7 +285,7 @@ U 1 1 601C2C34
 P 6150 3650
 F 0 "U2" H 6100 4253 60  0000 C CNN
 F 1 "SN74LS08N" H 6100 4147 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6350 3850 60  0001 L CNN
+F 2 "digikey-footprints:DIP-14_W3mm" H 6350 3850 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls08" H 6350 3950 60  0001 L CNN
 F 4 "296-1633-5-ND" H 6350 4050 60  0001 L CNN "Digi-Key_PN"
 F 5 "SN74LS08N" H 6350 4150 60  0001 L CNN "MPN"
@@ -411,7 +411,7 @@ U 1 1 6021DBB8
 P 8100 2400
 F 0 "U3" H 8100 3203 60  0000 C CNN
 F 1 "SN74HC14N" H 8100 3097 60  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8300 2600 60  0001 L CNN
+F 2 "digikey-footprints:DIP-14_W3mm" H 8300 2600 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc14" H 8300 2700 60  0001 L CNN
 F 4 "296-1577-5-ND" H 8300 2800 60  0001 L CNN "Digi-Key_PN"
 F 5 "SN74HC14N" H 8300 2900 60  0001 L CNN "MPN"
