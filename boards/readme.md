@@ -33,3 +33,4 @@ Components are listed on each board folder on a "comma separated value" file nam
 
  - [LCr_addon on kitspace](https://kitspace.org/boards/github.com/eulerlab/open-visual-stimulator/boards/lcr_add-on/)
  - [mosfet circuit on kitspace](https://kitspace.org/boards/github.com/eulerlab/open-visual-stimulator/boards/mosfet_circuit/)
+ - [mosfet  plus voltage regulator circuit on kitspace](https://kitspace.org/boards/github.com/eulerlab/open-visual-stimulator/boards/mosfet_circuit_plus_voltage_regulator/)
