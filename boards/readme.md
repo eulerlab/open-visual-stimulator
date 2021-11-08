@@ -15,7 +15,7 @@ LED blanking circuits were inspired by earlier devices designed and built by R. 
 
 - For details on the design and function of the boards, see [preprint](https://www.biorxiv.org/content/10.1101/649566v1)).
 
-- The boards were designed using [KiCad 5](http://www.kicad-pcb.org/) and can be ordered using the `Gerber.zip` file located in each board's `gerber` subfolder.
+- The boards were designed using [KiCad 5](http://www.kicad.org/) and can be ordered using the `Gerber.zip` file located in each board's `gerber` subfolder.
 
 - Several "board on demand" companies are available, and the process of ordering is pretty much the same. A more detailed tutorial on how to do so can be found [here](https://www.youtube.com/watch?v=ENmDnoKs2hM) (for simply using the already available compressed files, go to minute 7 of the video).
 
