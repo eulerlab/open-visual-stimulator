@@ -4,4 +4,8 @@ OpenSCAD (`.scad`) and STL (`.stl`) files for various optomechanical components.
 
 - `SSR_board` contains the designs for parts to hold the board.
 - `Fish_cinema` contains the designs for the fish tank that is placed under the objective in the fish stimulator.
-- `Optical components` contains three folders, one with designs used for the [mouse stimulator](./optical_components/mouse_stimulator), one with designs used in the LED assembly of the [fish stimulator](./optical_components/fish_stimulator), and one with parts that can be printed to modify the [lightcrafters](./optical_components/lcr_addons).
+- `Optical components` contains the following folders:
+  - [mouse stimulator](./optical_components/mouse_stimulator), contains designs used in the LED assembly.
+  - [fish stimulator](./optical_components/fish_stimulator), contains designs used in the LED assembly.
+  - [lightcrafters](./optical_components/lcr_addons), contains parts that can be printed to modify the LCrs.
+  - [ND_filterholder](./optical_components/ND_filterholder) contains file for a design that hold ND filters from Thorlabs and easily fits on their cage system.
