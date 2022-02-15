@@ -14,9 +14,9 @@ manifest-author:
   affiliation: University of Sussex        # text
   email: a.maia-chagas@sussex.ac.uk        # email address
 
-manifest-language: English-UK
+manifest-language: en-UK
 
-documentation-language: English-UK
+documentation-language: en-UK
 
 #manifest-is-translation:
 #  title: [value]                           # text | Title of the original
@@ -32,12 +32,11 @@ documentation-language: English-UK
 
 # Properties
 
-title: Open Visual Stimulator                             # required | text | A title to identify the thing
+title: Open Visual Stimulator
 
 description: |
-    The open visual stimulator is a projector system that can take up to six different leds with any chosen wavelength and project images, videos, patterns.  # required | paragraph
-
-intended-use: |                            # recommended | Paragraph
+    The open visual stimulator is a projector system that can take up to six different leds with any chosen wavelength and project images, videos, patterns.
+intended-use: |
     This system was developed for neuroscience research and to be used for experiments in vision.
 
 keywords:                                  # At least one keyword is recommended | text array
@@ -47,7 +46,7 @@ keywords:                                  # At least one keyword is recommended
   - Visual neurosciences
   - Behaviour
 
-project-link: https://github.com/eulerlab/open-visual-stimulator       # At least project-link or documentation-home is required, otherwise recommended | absolute path URL
+project-link: https://github.com/eulerlab/open-visual-stimulator
 
 #health-safety-notice: |                    # paragraph
 #  [value]
@@ -65,7 +64,7 @@ contact:
 #    affiliation: [value]                   # text
 #    email: [value]                         # email address
 
-image: https://raw.githubusercontent.com/eulerlab/open-visual-stimulator/master/pics/Zebrafish_Cinema.png                           # recommended | absolute or relative path
+image: pics/Zebrafish_Cinema.png
 
 version: 1.0                           # text
 
@@ -102,9 +101,9 @@ made-independently: true           # boolean - true or false
 # License
 
 license:                                   # At least one license is required | The format should be an SPDX identifier. See https://spdx.org/licenses/hardware: [value] # recommended | The license under which the hardware is released
-  hardware: CERN OHL v1.2                        # recommended | The license under which the documentation is released
-  documentation: GPL-2.0                   # recommended | The license under which the documentation is released
-  software: CC-BY-SA v4.0                        # recommended where software is used | The license under which the software is released
+  hardware: CERN-OHL-1.2                        # recommended | The license under which the documentation is released
+  documentation: GPL-2.0-only                   # recommended | The license under which the documentation is released
+  software: CC-BY-SA-4.0                        # recommended where software is used | The license under which the software is released
 
 licensor:
   name: Andre Maia Chagas                            # text
