@@ -12,13 +12,14 @@ cageL = 71.1;
 interRodDistance = 60;
 
 filterD = 50.8;
-filter1T = 0.6/3.6;
-filter2T = 3.6/3.6;
+filter1T = 3.6/3.6;
+filter2T = 3.6/3.6+0.8;
 
 sockT = 5.5;
 
 tol = 0.1;
 $fn=40;
+
 
 module filter_sock(filterThick=1){
     //positive
