@@ -11,11 +11,11 @@ rodL = 20;
 cageL = 71.1;
 interRodDistance = 60;
 
-filterD = 50.8;
-filter1T = 3.6/3.6;
-filter2T = 3.6/3.6+0.8;
+filterD = 51.8;
+filter1T = 5/3.6;
+filter2T = 5/3.6+0.4;
 
-sockT = 5.5;
+sockT = 6;
 
 tol = 0.1;
 $fn=40;
@@ -27,8 +27,8 @@ module filter_sock(filterThick=1){
 
     difference(){
         union(){
-translate([0,cageL/2-rodD-5,(filterThick+5)/2]){
-        cube([cageL,20,filter2T+5],center=true);
+translate([0,cageL/2-rodD-7,(filterThick+5)/2]){
+        cube([cageL,25,filter2T+5],center=true);
     }//end translate
    cylinder(d=filterD+2*tol+2,h=sockT);
 }//end union 
@@ -42,14 +42,18 @@ translate([0,cageL/2-rodD-5,(filterThick+5)/2]){
     
     
     translate([0,0,-5]){
-    cylinder(d=filterD+2*tol-2,h=filterThick+2*tol+20);
+    cylinder(d=filterD+2*tol-2.5,h=filterThick+2*tol+20);
     }//end translate
-    translate([0,0,(sockT/2)]){
-    rotate_extrude(convexity = 10, $fn = 50){
+    translate([0,0,(sockT/2)-1]){
+        cylinder(d=filterD+2*tol,h=filterThick+2*tol);
+    
+      /*  
+        rotate_extrude(convexity = 10, $fn = 50){
         translate([(filterD+2*tol-2)/2, 0, 0]){
             circle(r = filterThick, $fn = 100);
             }// end translate
         }//end rotate_extrude
+        */
     }//end translate
     
     //translate([0,0,(sockT-filterThick)/2]){
