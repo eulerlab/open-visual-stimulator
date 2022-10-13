@@ -15,7 +15,7 @@ filterD = 51.8;
 filter1T = 5/3.6;
 filter2T = 5/3.6+0.4;
 
-sockT = 6;
+sockT = 8;
 
 tol = 0.1;
 $fn=40;
@@ -27,8 +27,8 @@ module filter_sock(filterThick=1){
 
     difference(){
         union(){
-translate([0,cageL/2-rodD-7,(filterThick+5)/2]){
-        cube([cageL,25,filter2T+5],center=true);
+translate([0,cageL/2-rodD-7,(sockT)/2]){
+        cube([cageL,25,sockT],center=true);
     }//end translate
    cylinder(d=filterD+2*tol+2,h=sockT);
 }//end union 
@@ -44,7 +44,7 @@ translate([0,cageL/2-rodD-7,(filterThick+5)/2]){
     translate([0,0,-5]){
     cylinder(d=filterD+2*tol-2.5,h=filterThick+2*tol+20);
     }//end translate
-    translate([0,0,(sockT/2)-1]){
+    translate([0,0,(sockT-(filterThick+2*tol))/2]){
         cylinder(d=filterD+2*tol,h=filterThick+2*tol);
     
       /*  
@@ -59,10 +59,10 @@ translate([0,cageL/2-rodD-7,(filterThick+5)/2]){
     //translate([0,0,(sockT-filterThick)/2]){
     //%cylinder(d=filterD+2*tol,h=filterThick+2*tol);
     //}//end translate
-   translate([(interRodDistance)/2+2.2,19,(filterThick+5)/2]){
+   translate([(interRodDistance)/2+2.2,19,(sockT)/2]){
 cube([rodD+5,20,10],center=true);
     }//end translate
-translate([-(interRodDistance+rodD)/2+0.8,19,(filterThick+5)/2]){
+translate([-(interRodDistance+rodD)/2+0.8,19,(sockT)/2]){
 cube([rodD+5,20,10],center=true);
     }//end translate
 
@@ -110,7 +110,7 @@ cube([rodD+5,interRodDistance+rodD+1,10],center=true);
     }//end module
 
 //filter_hanger();
-filter_sock(filterThick=filter2T);
+filter_sock(filterThick=5);
 //translate([60,00,0]){
 //filter_sock(filterThick=filter1T);
 //}
