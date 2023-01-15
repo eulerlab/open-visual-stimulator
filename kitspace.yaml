@@ -1,25 +1,41 @@
 multi:
-    boards/mosfet_circuit:
+    mosfet_circuit:
         summary: A board for fast switching leds on/off, part of the Open source visual stimulator project
         color: green
         site: https://www.biorxiv.org/content/10.1101/649566v1
         bom: boards/mosfet_circuit/1-click-bom.csv
         gerbers: boards/mosfet_circuit/gerber
-    boards/lcr_add-on:
+        readme: boards/mosfet_circuit/README.md
+        eda:
+            type: kicad
+            pcb: boards/mosfet_circuit/led_driver.kicad_pcb
+    lcr_add-on:
         summary: A board for integrating signals from a lightcrafter to a 2P microscope, part of the Open source visual stimulator project
         color: green
         site: https://www.biorxiv.org/content/10.1101/649566v1
         bom: boards/lcr_add-on/1-click-bom.csv
         gerbers: boards/lcr_add-on/gerber
-    boards/mosfet_circuit_plus_voltage_regulator:
+        readme: boards/lcr_add-on/README.md
+        eda:
+            type: kicad
+            pcb: boards/lcr_add-on//Lcr_addon.kicad_pcb
+    mosfet_circuit_plus_voltage_regulator:
         summary:  A variable voltage regulator and mosfet board for fast switching leds on/off, part of the Open source visual stimulator project
         color: green
         site: https://www.biorxiv.org/content/10.1101/649566v1
         bom: boards/mosfet_circuit_plus_voltage_regulator/1-click-bom.csv
         gerbers: boards/mosfet_circuit_plus_voltage_regulator/gerbers
-    boards/ssr_board:
+        readme: boards/mosfet_circuit_plus_voltage_regulator/README.md
+        eda:
+            type: kicad
+            pcb: boards/mosfet_circuit_plus_voltage_regulator/led_driver.kicad_pcb
+    ssr_board:
         summary:  Board with solid state relays to open/close an led power line.
         color: green
         site: https://www.biorxiv.org/content/10.1101/649566v1
         bom: boards/ssr_board/1-click-bom.csv
         gerbers: boards/ssr_board/gerbers
+        readme: boards/ssr_board/README.md
+        eda:
+            type: kicad
+            pcb: boards/ssr_board/ss_relay.kicad_pcb
