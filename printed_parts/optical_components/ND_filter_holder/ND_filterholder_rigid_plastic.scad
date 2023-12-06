@@ -11,7 +11,7 @@ rodL = 20;
 cageL = 71.1;
 interRodDistance = 60;
 
-filterD = 51.8;
+filterD = 50;
 filter1T = 5/3.6;
 filter2T = 5/3.6+0.4;
 
@@ -39,8 +39,8 @@ cylinder(d=filterD+2*tol+2,h=filterThick);
     translate([0,0,-1]){
 cylinder(d=filterD+2*tol-2,h=sockT+5);
     }//translate
-    translate([0,0,+1]){
-cylinder(d=filterD+2*tol,h=sockT+5);
+    translate([0,0,+3]){
+cylinder(d=filterD+2*tol,h=sockT);
     }//translate
     
     translate([(interRodDistance)/2+2.2,19,(filterThick+5)/2-0.1]){
